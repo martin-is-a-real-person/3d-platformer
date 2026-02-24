@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -7,10 +8,16 @@ public class MovementScript : MonoBehaviour
     public float jumpHeight = 1.5f;
     private float gravityValue = -9.81f;
     public float jumpCancelledMultiplier = 3.0f;
+    private Vector3 move;
 
     public CharacterController controller;
     private Vector3 playerVelocity;
     private bool groundedPlayer;
+
+    private bool hanging;
+    private bool canMove = true;
+
+    public float forwardDistance;
 
     private Transform cameraTransform;
 
@@ -49,30 +56,88 @@ public class MovementScript : MonoBehaviour
 
         // Read input
         Vector2 input = moveAction.action.ReadValue<Vector2>();
-        Vector3 move = new Vector3(input.x, 0, input.y);
+        move = new Vector3(input.x, 0, input.y);
         move = cameraTransform.forward * move.z + cameraTransform.right * move.x;
         move.y = 0f;
         move = Vector3.ClampMagnitude(move, 1f);
 
         // Jump using WasPressedThisFrame()
-        if (groundedPlayer && jumpAction.action.WasPressedThisFrame())
+        if (hanging && jumpAction.action.WasPressedThisFrame())
+        {
+            gravityValue = -9.81f;
+            hanging = false;
+            StartCoroutine(EnableCanMove(0.25f));
+            playerVelocity.y = Mathf.Sqrt(jumpHeight * -2f * gravityValue);
+        }
+
+        else if (groundedPlayer && jumpAction.action.WasPressedThisFrame())
         {
             playerVelocity.y = Mathf.Sqrt(jumpHeight * -2f * gravityValue);
         }
+
         if (playerVelocity.y > 0 && jumpAction.action.IsPressed() == false)
         {
             // Apply extra downward force (increased gravity)
             playerVelocity.y += gravityValue * jumpCancelledMultiplier * Time.deltaTime;
         }
 
-        else
+        LedgeGrab();
+
+        // Apply gravity
+        playerVelocity.y += gravityValue * Time.deltaTime;
+
+        if (!canMove)
         {
-            // Apply gravity
-            playerVelocity.y += gravityValue * Time.deltaTime;
+            move = Vector3.zero;
         }
 
         // Move
         Vector3 finalMove = move * playerSpeed + Vector3.up * playerVelocity.y;
         controller.Move(finalMove * Time.deltaTime);
+    }
+
+    IEnumerator EnableCanMove(float waitTime)
+    {
+        yield return new WaitForSeconds(waitTime);
+        canMove = true;
+    }
+
+    void LedgeGrab()
+    {
+        if (controller.velocity.y < 0 && !hanging)
+        {
+            RaycastHit downHit;
+            Vector3 lineDownStart = transform.position + Vector3.up * -2f + transform.forward;
+            Vector3 lineDownEnd = transform.position + Vector3.up * -1f + transform.forward;
+            Physics.Linecast(lineDownStart, lineDownEnd, out downHit, LayerMask.GetMask("Platforms"));
+            Debug.DrawLine(lineDownStart, lineDownEnd);
+
+            if (downHit.collider != null)
+            {
+                RaycastHit forwardHit;
+                Vector3 lineForwardStart = new Vector3(transform.position.x, downHit.point.y + 0.1f, transform.position.z);
+                Vector3 lineForwardEnd = new Vector3(transform.position.x, downHit.point.y + 0.1f, transform.position.z) + transform.forward * forwardDistance;
+                Physics.Linecast(lineForwardStart, lineForwardEnd, out forwardHit, LayerMask.GetMask("Platforms"));
+                Debug.DrawLine(lineForwardStart, lineForwardEnd);
+
+                if (forwardHit.collider != null)
+                {
+                    gravityValue = 0;
+
+                    hanging = true;
+                    canMove = false;
+
+                    //hanging animation
+
+                    Vector3 hangingPos = new Vector3(forwardHit.point.x, downHit.point.y, forwardHit.point.z);
+                    Vector3 offset = transform.forward * -0.1f + transform.up * -1f;
+                    hangingPos += offset;
+
+                    transform.position = hangingPos;
+
+                    transform.forward = -forwardHit.normal;
+                }
+            }
+        }
     }
 }
