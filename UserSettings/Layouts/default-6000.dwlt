@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1706.6667
     height: 976
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 498}
   m_MaxSize: {x: 10000, y: 10000}
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 112}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 25
+  controlID: 221
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 112}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 26
+  controlID: 222
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -168,8 +168,8 @@ MonoBehaviour:
     y: 0
     width: 806
     height: 472.66666
-  m_MinSize: {x: 201, y: 226}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -272,8 +272,8 @@ MonoBehaviour:
     y: 0
     width: 383.33325
     height: 920
-  m_MinSize: {x: 276, y: 76}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -1271,9 +1271,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 18.489737, y: -7.779145, z: -21.370932}
+    m_Target: {x: -0.6153674, y: -0.39399865, z: 5.095079}
     speed: 2
-    m_Value: {x: 18.489737, y: -7.779145, z: -21.370932}
+    m_Value: {x: -0.6153674, y: -0.39399865, z: 5.095079}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1319,13 +1319,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.26761347, y: -0.73235494, z: 0.44763115, w: 0.4379108}
+    m_Target: {x: -0.20701459, y: 0.67316955, z: -0.20500298, w: -0.67978555}
     speed: 2
-    m_Value: {x: 0.26760006, y: -0.7323183, z: 0.44760874, w: 0.43788886}
+    m_Value: {x: -0.20699939, y: 0.67312014, z: -0.20498793, w: -0.67973566}
   m_Size:
-    m_Target: 21.214424
+    m_Target: 10.54497
     speed: 2
-    m_Value: 21.214424
+    m_Value: 10.54497
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1400,19 +1400,16 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: []
+      m_SelectedIDs:
+      - m_Data: 47580
       m_LastClickedID:
-        m_Data: 0
+        m_Data: 47580
       m_ExpandedIDs:
-      - m_Data: -56222
-      - m_Data: -55504
-      - m_Data: -49516
-      - m_Data: -48184
-      - m_Data: 64624
+      - m_Data: -1294
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Spike
+        m_OriginalName: Spike
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
@@ -1420,10 +1417,10 @@ MonoBehaviour:
           width: 0
           height: 0
         m_UserData:
-          m_Data: 0
+          m_Data: 47526
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
         m_ClientGUIView: {fileID: 9}
@@ -1482,7 +1479,8 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders: []
+    m_Folders:
+    - Assets/Scripts
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1502,7 +1500,11 @@ MonoBehaviour:
     m_SelectedIDs: []
     m_LastClickedID:
       m_Data: 0
-    m_ExpandedIDs: []
+    m_ExpandedIDs:
+    - m_Data: 0
+    - m_Data: 47944
+    - m_Data: 47946
+    - m_Data: 47948
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1530,18 +1532,20 @@ MonoBehaviour:
       m_ResourceFile: 
   m_AssetTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: []
+    m_SelectedIDs:
+    - m_Data: 47580
     m_LastClickedID:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 63576
-    - m_Data: 63628
-    - m_Data: 63630
+    - m_Data: 47944
+    - m_Data: 47946
+    - m_Data: 47948
+    - m_Data: 48392
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Augh
-      m_OriginalName: Augh
+      m_Name: Video Clips
+      m_OriginalName: Video Clips
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
@@ -1549,7 +1553,7 @@ MonoBehaviour:
         width: 0
         height: 0
       m_UserData:
-        m_Data: 65058
+        m_Data: 48392
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -1564,8 +1568,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: []
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs:
+    - m_Data: 47580
+    m_LastClickedInstanceID: 47580
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
