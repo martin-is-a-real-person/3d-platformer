@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\assets\\scripts\\spikedamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spikedamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SpikeDamage.cs",
+              "DocumentMoniker": "C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\SpikeDamage.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SpikeDamage.cs",
+              "ToolTip": "C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\SpikeDamage.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SpikeDamage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T09:38:38.432Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
