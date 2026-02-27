@@ -15,7 +15,7 @@ public class LedgeGrabbing : MonoBehaviour
 
     void Start()
     {
-        ledgeLayer = LayerMask.NameToLayer("LedgeLayer");
+        ledgeLayer = LayerMask.NameToLayer("Platforms");
     }
 
     // Update is called once per frame
