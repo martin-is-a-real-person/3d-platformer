@@ -50,10 +50,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\MouseLock.cs" />
+    <Compile Include="Assets\Scripts\ShadowScript.cs" />
     <Compile Include="Assets\Scripts\MovementScript.cs" />
     <Compile Include="Assets\Scripts\ButtonScript.cs" />
     <Compile Include="Assets\Scripts\WallCollision.cs" />
-    <Compile Include="Assets\Scripts\OldLedgeGrabbing.cs" />
     <Compile Include="Assets\Scripts\LedgeGrabbing.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\WallMovement.cs" />
