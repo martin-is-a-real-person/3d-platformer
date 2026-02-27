@@ -81,8 +81,6 @@ public class MovementScript : MonoBehaviour
             playerVelocity.y += gravityValue * jumpCancelledMultiplier * Time.deltaTime;
         }
 
-        LedgeGrab();
-
         // Apply gravity
         playerVelocity.y += gravityValue * Time.deltaTime;
 

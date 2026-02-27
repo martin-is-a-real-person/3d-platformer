@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-marti" at "2026-02-24T10:43:50.5892553Z"
 Built from '6000.3/respin/6000.3.5f1-a1ec4b2f2d19' branch; Version is '6000.3.5f2 (3fa8bc678cb0) revision 4171964'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 24283 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-marti" at "2026-02-27T08:04:16.9284836Z"
 System  architecture: x64
 Process architecture: x64
-Date: 2026-02-24T10:43:50Z
+Date: 2026-02-27T08:04:16Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.5f2\Editor\Unity.exe
@@ -19,7 +19,7 @@ C:/Users/marti/Desktop/Games/Unity/3D-platformer/3d-platformer
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52780
+64918
 -licensingIpc
 LicenseClient-marti
 -job-worker-count
@@ -67,14 +67,14 @@ C:/Users/marti/Desktop/Games/Unity/3D-platformer/3d-platformer
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [10540]  Target information:
+Player connection [30740]  Target information:
 
-Player connection [10540]  * "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 4236728513 [EditorId] 4236728513 [Version] 1048832 [Id] WindowsEditor(7,SHELLDON) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [30740]  * "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 2945567196 [EditorId] 2945567196 [Version] 1048832 [Id] WindowsEditor(7,SHELLDON) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [10540]  * "[IP] 172.26.82.170 [Port] 0 [Flags] 2 [Guid] 4236728513 [EditorId] 4236728513 [Version] 1048832 [Id] WindowsEditor(7,SHELLDON) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [30740]  * "[IP] 172.26.76.166 [Port] 0 [Flags] 2 [Guid] 2945567196 [EditorId] 2945567196 [Version] 1048832 [Id] WindowsEditor(7,SHELLDON) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [10540] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [10540] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [30740] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [30740] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -86,12 +86,21 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.5f2 (3fa8bc678cb0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/marti/Desktop/Games/Unity/3D-platformer/3d-platformer/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              b495e4ac95394839adab714001eac11e
+  Correlation Id:          be164f73c020ac32514a71630e46da79
+  External correlation Id: 3208910614044188368
+  Machine Id:              LWP34sG5ui95UKq1LZLWU2lO37g=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-marti" (connect: 0.00s, validation: 0.00s, handshake: 1.51s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-marti-notifications" at "2026-02-27T08:04:18.4374986Z"
+[Licensing::Module] Licensing Background thread has ended after 1.51s
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28e1)
@@ -102,23 +111,12 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-[Licensing::Module] Licensing is not yet initialized.
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.4+4293ba1
-  Session Id:              f314fed7eb9a4c7286bdfccd5751170c
-  Correlation Id:          a6ed974ef1037134c01b70980d4f4c60
-  External correlation Id: 3592460332019490128
-  Machine Id:              LWP34sG5ui95UKq1LZLWU2lO37g=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-marti" (connect: 0.00s, validation: 0.00s, handshake: 1.61s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-marti-notifications" at "2026-02-24T10:43:52.1974101Z"
-[Licensing::Module] Licensing Background thread has ended after 1.61s
-[Licensing::Module] Licensing is initialized (took 0.02s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 5773938678092-UnityPersXXXX
@@ -129,11 +127,11 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.5f2/E
 [Licensing::Client] Successfully resolved entitlement details
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.037735 seconds.
-- Loaded All Assemblies, in  0.802 seconds
+Registered in 0.026862 seconds.
+- Loaded All Assemblies, in  0.652 seconds
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 347 ms
+Android Extension - Scanning For ADB Devices 412 ms
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
@@ -144,35 +142,35 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.069 seconds
-Domain Reload Profiling: 1867ms
-	BeginReloadAssembly (255ms)
+- Finished resetting the current domain, in  1.155 seconds
+Domain Reload Profiling: 1805ms
+	BeginReloadAssembly (192ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (77ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (140ms)
-	LoadAllAssembliesAndSetupDomain (302ms)
-		LoadAssemblies (253ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (105ms)
+	LoadAllAssembliesAndSetupDomain (281ms)
+		LoadAssemblies (190ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (292ms)
-			TypeCache.Refresh (289ms)
-				TypeCache.ScanAssembly (271ms)
+		AnalyzeDomain (276ms)
+			TypeCache.Refresh (273ms)
+				TypeCache.ScanAssembly (254ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1070ms)
+	FinalizeReload (1156ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1002ms)
+		SetupLoadedEditorAssemblies (1109ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (510ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (147ms)
-			ProcessInitializeOnLoadAttributes (244ms)
-			ProcessInitializeOnLoadMethodAttributes (95ms)
+			InitializePlatformSupportModulesInManaged (596ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (145ms)
+			ProcessInitializeOnLoadAttributes (253ms)
+			ProcessInitializeOnLoadMethodAttributes (110ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -185,11 +183,11 @@ Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInter
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
-- Loaded All Assemblies, in  1.176 seconds
+- Loaded All Assemblies, in  1.328 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
-Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
 Native extension for LinuxStandalone target not found
 Native extension for Android target not found
 Native extension for UWP target not found
@@ -205,206 +203,687 @@ Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInter
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.599 seconds
-Domain Reload Profiling: 2770ms
-	BeginReloadAssembly (267ms)
+- Finished resetting the current domain, in  1.578 seconds
+Domain Reload Profiling: 2898ms
+	BeginReloadAssembly (281ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (792ms)
-		LoadAssemblies (571ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (901ms)
+		LoadAssemblies (564ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (363ms)
-			TypeCache.Refresh (253ms)
-				TypeCache.ScanAssembly (232ms)
-			BuildScriptInfoCaches (92ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1600ms)
+		AnalyzeDomain (480ms)
+			TypeCache.Refresh (316ms)
+				TypeCache.ScanAssembly (289ms)
+			BuildScriptInfoCaches (146ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1578ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1320ms)
+		SetupLoadedEditorAssemblies (1131ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (180ms)
-			ProcessInitializeOnLoadAttributes (860ms)
-			ProcessInitializeOnLoadMethodAttributes (240ms)
-			AfterProcessingInitializeOnLoad (24ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (214ms)
+			ProcessInitializeOnLoadAttributes (791ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 2.29 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6619 unused Assets / (3.3 MB). Loaded Objects now: 7433.
-Memory consumption went from 147.5 MB to 144.2 MB.
-Total: 20.545800 ms (FindLiveObjects: 1.781700 ms CreateObjectMapping: 1.287800 ms MarkObjects: 13.811800 ms  DeleteObjects: 3.661800 ms)
+Unloading 6636 unused Assets / (4.9 MB). Loaded Objects now: 7456.
+Memory consumption went from 151.0 MB to 146.1 MB.
+Total: 15.225500 ms (FindLiveObjects: 0.782900 ms CreateObjectMapping: 1.125200 ms MarkObjects: 9.121400 ms  DeleteObjects: 4.193300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6721.047409 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
-  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c37016ca6f3d597fbdc6c20ae81349cb') in 0.1716157 seconds
+  Time since last request: 410.437174 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Shaders/Lit/Lit.unity
+  artifactKey: Guid(9acd9e0559b154c41b9864a33e171300) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Shaders/Lit/Lit.unity using Guid(9acd9e0559b154c41b9864a33e171300) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a1ecbc885d5deff9c114aac4820978a9') in 0.1159498 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
-  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a7d5a372ceaea115b105a73e6f0000f5') in 0.0257977 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
-  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '48e17aa9809fbd24ec026e6c6ce3b1ed') in 0.0678055 seconds
+  Time since last request: 0.000031 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Decals/PaintSplat/PaintSplat_Mat.mat
+  artifactKey: Guid(d77f7a4cdcb2643618b950c16172ddd2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Decals/PaintSplat/PaintSplat_Mat.mat using Guid(d77f7a4cdcb2643618b950c16172ddd2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3b6c1b73facc6aa4a971ef41cf1bd474') in 0.0928233 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/InputSystem_Actions.inputactions
-  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b81c825bcb470920fd0949f38f0d7ed2') in 0.3748482 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Scripts/LedgeGrabbing.cs
-  artifactKey: Guid(3e24e4a3cf1c93349aaf38d166d33e9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/LedgeGrabbing.cs using Guid(3e24e4a3cf1c93349aaf38d166d33e9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3e020f163f0c766029263980773e3386') in 0.0373446 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph
-  artifactKey: Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph using Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '09a203ba5603b36d27a92dc58adf8414') in 0.0381532 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000043 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Decals/BlobShadow/BlobShadow_Graph.shadergraph
+  artifactKey: Guid(0bb4596125b68476b9ce0035f4d8b8cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Decals/BlobShadow/BlobShadow_Graph.shadergraph using Guid(0bb4596125b68476b9ce0035f4d8b8cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '13cb101d97bc78e45677f2758e7531c0') in 0.0639575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/Fonts/YesevaOne-Regular SDF.asset
-  artifactKey: Guid(097245462dd1cd743a90821d5d7bb8bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Fonts/YesevaOne-Regular SDF.asset using Guid(097245462dd1cd743a90821d5d7bb8bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c4db732915120f9e99578a701d00fe34') in 0.0863173 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Scenes/GameOver.unity
-  artifactKey: Guid(8c0709e917adf064cb1f96401e249ad6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/GameOver.unity using Guid(8c0709e917adf064cb1f96401e249ad6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '57399674237714c872412c2e1e4ff8ec') in 0.0244501 seconds
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/TrailEffect
+  artifactKey: Guid(6a5f7f50efe0542c7bd8be7b1d4ab60b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/TrailEffect using Guid(6a5f7f50efe0542c7bd8be7b1d4ab60b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '60fe22d6ac466a0e665546bece71f963') in 0.024962 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Scripts/WallCollision.cs
-  artifactKey: Guid(ba9f75e530106c14c809deacadc82fd9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/WallCollision.cs using Guid(ba9f75e530106c14c809deacadc82fd9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9b2812546435378344d85c4c94d1da49') in 0.0209919 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
-  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0ca1d7402913d4f6e7b9cccb89859d9d') in 0.0237198 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
-  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8f16cf5b3273a2d1a248e2e3112e2f45') in 0.0219404 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
-  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ea58ba3df6e8f8034eb5ce8d9b03d46f') in 0.0201523 seconds
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Lighting/Reflection Probes/Reflection Probes/ReflectionProbe-9.exr
+  artifactKey: Guid(ff3a1f080abee424286145cc08722983) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Lighting/Reflection Probes/Reflection Probes/ReflectionProbe-9.exr using Guid(ff3a1f080abee424286145cc08722983) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'de9ef7d85e5e203f4be911dfd34b7fcb') in 0.0897291 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000026 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
-  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2ccee28794d56447aad2b80d56f5784d') in 0.025957 seconds
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/OcclusionEffect/OcclusionEffect.unity
+  artifactKey: Guid(8bb340c741f534f148e47e0b59a901f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/OcclusionEffect/OcclusionEffect.unity using Guid(8bb340c741f534f148e47e0b59a901f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c3cf3f0f11144ad16cf19dd97bcda457') in 0.0256232 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/CameraStacking/3D Skybox/Shaders
+  artifactKey: Guid(1b839c82c9fad41489da85f8dba494b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/CameraStacking/3D Skybox/Shaders using Guid(1b839c82c9fad41489da85f8dba494b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0e1eb74f4873fb1c8957c3f90c4f7180') in 0.0238793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Decals/ProxyLighting/Shaders/SpotLightProxy_Graph.shadergraph
+  artifactKey: Guid(1d4241f2d72964e1187486469baf9cbe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Decals/ProxyLighting/Shaders/SpotLightProxy_Graph.shadergraph using Guid(1d4241f2d72964e1187486469baf9cbe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fa4519f74c70122db3ed99e42f78a684') in 0.0445354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
   Time since last request: 0.000030 seconds.
-  path: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
-  artifactKey: Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs using Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9de63fc3233176dff2b3539a7b5241b4') in 0.0209901 seconds
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/SharedAssets/Materials/MatteCheckerFloor.mat
+  artifactKey: Guid(7e7ea892f3527412a9f7dec5c9b7ef76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/SharedAssets/Materials/MatteCheckerFloor.mat using Guid(7e7ea892f3527412a9f7dec5c9b7ef76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b9c786cdec5142830bf356514786a27d') in 0.0480908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/TrailEffect/TrailMapDisplay.mat
+  artifactKey: Guid(33464e10663c24965b706ce42c11f3e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/TrailEffect/TrailMapDisplay.mat using Guid(33464e10663c24965b706ce42c11f3e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a0737ea229db4645f8a023be4e5af07d') in 0.1865636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/SharedAssets
+  artifactKey: Guid(a46694ee15ba14a84a91e0274475f4a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/SharedAssets using Guid(a46694ee15ba14a84a91e0274475f4a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1518c9e8d8ad58eb3d340d45512475ef') in 0.0308323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Shaders/Lit/Materials/EmissionOn.mat
+  artifactKey: Guid(c2809691a61fc4a43b6483eee535d786) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Shaders/Lit/Materials/EmissionOn.mat using Guid(c2809691a61fc4a43b6483eee535d786) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a2e23b9f38f2a298d90e83f9065afcb3') in 0.4736578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Shaders/Lit/Textures/Coins_Base.png
+  artifactKey: Guid(b163bf2a288dd46efa3cc7460d5f9cd8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Shaders/Lit/Textures/Coins_Base.png using Guid(b163bf2a288dd46efa3cc7460d5f9cd8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9d499f9fca50d27577b61131d7ff174f') in 0.0551548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/LensFlares/LensFlarePresets/Caustic.asset
+  artifactKey: Guid(a7c0a0ff2b491471085f619e18205ffe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/LensFlares/LensFlarePresets/Caustic.asset using Guid(a7c0a0ff2b491471085f619e18205ffe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '102a9b6b21d6163c56d642f499f69c05') in 0.0309108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/SharedAssets/Shaders
+  artifactKey: Guid(ae03cbdb010c14be8bca605a1cb6dbf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/SharedAssets/Shaders using Guid(ae03cbdb010c14be8bca605a1cb6dbf0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '751da2d60b145c95974dce24c99f0958') in 0.0213501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/BlitToRTHandle/BlitToRTHandleRenderer.asset
+  artifactKey: Guid(54e4ee98c91a93a4e903d94d1491db38) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/BlitToRTHandle/BlitToRTHandleRenderer.asset using Guid(54e4ee98c91a93a4e903d94d1491db38) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a000260e5186256483326711fbc13a0b') in 0.0751976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Shaders/Lit/Materials/NormalMapOn.mat
+  artifactKey: Guid(3e1368ee81423418da8a693099ce68c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Shaders/Lit/Materials/NormalMapOn.mat using Guid(3e1368ee81423418da8a693099ce68c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dda2b7edf4129c0a67787fdee57a24fc') in 0.0295514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Shaders/Lit/Textures/Coins_Metallic.png
+  artifactKey: Guid(99788167ab72747b18d1af46e93de3d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Shaders/Lit/Textures/Coins_Metallic.png using Guid(99788167ab72747b18d1af46e93de3d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '39509ce71837bed454ade1af0b20ad46') in 0.0479321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/BlitToRTHandle/Sphere_Transparent.mat
+  artifactKey: Guid(38848d87171014f4a8d0ebb1c0eca50e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/BlitToRTHandle/Sphere_Transparent.mat using Guid(38848d87171014f4a8d0ebb1c0eca50e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c0497e26d19c26800caf81931785a957') in 0.0280151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0
+  artifactKey: Guid(227288bc51bbd1f499cc61dcf21ceff3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0 using Guid(227288bc51bbd1f499cc61dcf21ceff3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aa27f411d35a53baad5ff3112761b3f8') in 0.0324479 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/BlitToRTHandle/Quad.shadergraph
+  artifactKey: Guid(cda6cb02c64f72e4cbe40b6e3f3661e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/BlitToRTHandle/Quad.shadergraph using Guid(cda6cb02c64f72e4cbe40b6e3f3661e3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '466043eac909a179c8eae8ead39f06ff') in 0.0501829 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/DistortTunnel/DistortTunnel.unity
+  artifactKey: Guid(cfc03c34f2f0daf4aa2bb33758c1a34c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/DistortTunnel/DistortTunnel.unity using Guid(cfc03c34f2f0daf4aa2bb33758c1a34c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '851370129fd3e4b836389716a0d25bbf') in 0.0214657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Shaders/Lit/Prefabs/4Podium.prefab
+  artifactKey: Guid(f6c633bbe2d20466fb1f016e0dd1f6cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Shaders/Lit/Prefabs/4Podium.prefab using Guid(f6c633bbe2d20466fb1f016e0dd1f6cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '19b892f15e050a3e065ce44e2df57909') in 0.0666575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 62
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/SharedAssets/Shaders/GradientRemap_Graph.shadergraph
+  artifactKey: Guid(9de9072f295244522a41127c5fc9238c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/SharedAssets/Shaders/GradientRemap_Graph.shadergraph using Guid(9de9072f295244522a41127c5fc9238c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8e25981520b9525424a22b6214b01ae2') in 0.0240933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/LensFlares/LensFlarePresets/Shapes.asset
+  artifactKey: Guid(142cac7b192c14e33b1fdd3172186568) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/LensFlares/LensFlarePresets/Shapes.asset using Guid(142cac7b192c14e33b1fdd3172186568) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5ac786612eb40c1192d2d9d275ff6457') in 0.1294104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/AmbientOcclusion/AmbientOcclusion/LightingData.asset
+  artifactKey: Guid(76fba1e8cc580406ba338f6526881281) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/AmbientOcclusion/AmbientOcclusion/LightingData.asset using Guid(76fba1e8cc580406ba338f6526881281) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '14c440ab323de4dc27a202fb25b016c4') in 0.1382136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Shaders/Lit/Lit/ReflectionProbe-1.exr
+  artifactKey: Guid(50d78c91087e548918d803dfadd427f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Shaders/Lit/Lit/ReflectionProbe-1.exr using Guid(50d78c91087e548918d803dfadd427f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1a1a0fbeaa6e29b5dc68e1ef68ab52c2') in 0.1975149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Shaders/Lit/Materials/MetallicMap.mat
+  artifactKey: Guid(bfe840013b1e840cdbc00d83632179e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Shaders/Lit/Materials/MetallicMap.mat using Guid(bfe840013b1e840cdbc00d83632179e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '92f1e0771462e96a7b02fac6cb8054a4') in 0.0235092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/SharedAssets/Materials/DarkGray.mat
+  artifactKey: Guid(a5fef8e8f920d422692b573b553f9c2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/SharedAssets/Materials/DarkGray.mat using Guid(a5fef8e8f920d422692b573b553f9c2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b422e82451fb27c7164ccec5445d0bff') in 0.0226079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/LensFlares/SunFlare.unity
+  artifactKey: Guid(65fbe97037fe7420aa67ea3b2f6c0ffa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/LensFlares/SunFlare.unity using Guid(65fbe97037fe7420aa67ea3b2f6c0ffa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e3f3cdd3e3de9f3d35a7107a26fb57e8') in 0.0244416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Shaders/Lit/Materials/BaseRed.mat
+  artifactKey: Guid(ab1e501408f784696a373918622592b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Shaders/Lit/Materials/BaseRed.mat using Guid(ab1e501408f784696a373918622592b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fdffc344be8d4d4b1c76712ab833a3b9') in 0.0188641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/CameraStacking
+  artifactKey: Guid(fca0937eee5fe4bb395cbd033df1509d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/CameraStacking using Guid(fca0937eee5fe4bb395cbd033df1509d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '23dc20c893a37bc76336d20d81b7f73a') in 0.0243192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/SharedAssets/Prefabs
+  artifactKey: Guid(c386c53489a4845d2a3091de67cff118) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/SharedAssets/Prefabs using Guid(c386c53489a4845d2a3091de67cff118) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4016b8910e6a91ebf585cf1e16c49c6f') in 0.0193555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/LensFlares/LensFlarePresets/Simple.asset
+  artifactKey: Guid(460af2ce1cdba4b799061fcd1ac4707b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/LensFlares/LensFlarePresets/Simple.asset using Guid(460af2ce1cdba4b799061fcd1ac4707b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '417885a2dfb52ec4476bb229b674e6ea') in 0.0233865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/SharedAssets/Scripts/FirstPersonController.cs
+  artifactKey: Guid(1b63a52c6229a7d48944998a4fcad092) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/SharedAssets/Scripts/FirstPersonController.cs using Guid(1b63a52c6229a7d48944998a4fcad092) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f07e532129c620ffd40e55f1592b9fa3') in 0.0229666 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000037 seconds.
-  path: Assets/Fonts/YesevaOne-Regular.ttf
-  artifactKey: Guid(a8351ee2661059242b7aeae759aef4fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Fonts/YesevaOne-Regular.ttf using Guid(a8351ee2661059242b7aeae759aef4fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c3aafc1ac8cfcb55b6cebaa7c58cc9b8') in 0.0366543 seconds
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/AmbientOcclusion/Animation
+  artifactKey: Guid(d2cfe778d16ed48b68bc5e98166d0a64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/AmbientOcclusion/Animation using Guid(d2cfe778d16ed48b68bc5e98166d0a64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dbfa9df7da7de2986b4e975fae572a5c') in 0.0223989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/SharedAssets/Scripts/CheckAssignedRenderPipelineAsset.cs
+  artifactKey: Guid(30bb0c3ff28dd87469339e5df35a56d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/SharedAssets/Scripts/CheckAssignedRenderPipelineAsset.cs using Guid(30bb0c3ff28dd87469339e5df35a56d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2254d40a1c91c244478d922fc10d985c') in 0.0200046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/SharedAssets/Scripts/SampleAssembly.asmdef
+  artifactKey: Guid(d770956cfc6450d45bf1908075cac342) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/SharedAssets/Scripts/SampleAssembly.asmdef using Guid(d770956cfc6450d45bf1908075cac342) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a2f65a6a6c6f445105bd11b563ecc93a') in 0.0774975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/TrailEffect/DepthHistory_Renderer.asset
+  artifactKey: Guid(14605b2e4960a4f8f96920e850374e93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/TrailEffect/DepthHistory_Renderer.asset using Guid(14605b2e4960a4f8f96920e850374e93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e580dd044be34baf3cb53955ddad11a3') in 0.0808008 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/DepthBlit/DepthEdge.mat
+  artifactKey: Guid(872101a632e94b3439452c0b632b8e1e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/DepthBlit/DepthEdge.mat using Guid(872101a632e94b3439452c0b632b8e1e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b8c7c0e54a83fe3e5c7b0e312f2b4ab3') in 0.0496727 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/OcclusionEffect
+  artifactKey: Guid(2b27d21b3b0ae43aaa998b32823beb44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/OcclusionEffect using Guid(2b27d21b3b0ae43aaa998b32823beb44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '06ec8afa0490a663ad3c315a33605c29') in 0.0199278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/CameraStacking/3D Skybox/3DSkybox/ReflectionProbe-0.exr
+  artifactKey: Guid(e16f6f3cfb18645678088ee007790938) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/CameraStacking/3D Skybox/3DSkybox/ReflectionProbe-0.exr using Guid(e16f6f3cfb18645678088ee007790938) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5f4152d566d8afb034e38c77ccc1eca4') in 0.2041708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/DistortTunnel/Plane
+  artifactKey: Guid(617d3664cf83621488e510dd65598aa6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/DistortTunnel/Plane using Guid(617d3664cf83621488e510dd65598aa6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3317bce6ef0392614df30640e262f0c0') in 0.0298008 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/OcclusionEffect/Animation/MovingCube.controller
+  artifactKey: Guid(3ad30d727577b44d3bf74963a1f9c56f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/OcclusionEffect/Animation/MovingCube.controller using Guid(3ad30d727577b44d3bf74963a1f9c56f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '73cdbdec82f03bb561b29c0886a197da') in 0.3622749 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Lighting/Reflection Probes/Reflection Probes/ReflectionProbe-7.exr
+  artifactKey: Guid(cc262af01956dc0469c944148c956e87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Lighting/Reflection Probes/Reflection Probes/ReflectionProbe-7.exr using Guid(cc262af01956dc0469c944148c956e87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0abdafd9e1c91c70e4fd0e15e4b1a965') in 0.498629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/SharedAssets/Prefabs/CheckAssignedRenderPipelineAsset.prefab
+  artifactKey: Guid(49a291c27c0b243438a861a905fcc73e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/SharedAssets/Prefabs/CheckAssignedRenderPipelineAsset.prefab using Guid(49a291c27c0b243438a861a905fcc73e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f9b002e4945b6693fd8190516ed23f69') in 0.5004198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/KeepFrame/SwirlyFrame.mat
+  artifactKey: Guid(b02405f3a8b6143a8bf2013c469300cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/KeepFrame/SwirlyFrame.mat using Guid(b02405f3a8b6143a8bf2013c469300cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a7512641f1aa1ee39b76005057e808e4') in 0.0215494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/CameraStacking/3D Skybox/Materials
+  artifactKey: Guid(8bba87808bb4c407cbb9aebc3322a6cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/CameraStacking/3D Skybox/Materials using Guid(8bba87808bb4c407cbb9aebc3322a6cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dee26d36e86312a0d766cea55fda051b') in 0.0223925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Shaders/Lit/Materials/WithHeightMap.mat
+  artifactKey: Guid(673fd4308d68a4e6eb452d59b21ff3d4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Shaders/Lit/Materials/WithHeightMap.mat using Guid(673fd4308d68a4e6eb452d59b21ff3d4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e9dc98af1ad0c6c87585cb6525351445') in 0.0975205 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
-  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a0944745f2b9dcceaaa0d66f2e1f3821') in 0.0208403 seconds
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Shaders/Lit/Materials/OcclusionOn.mat
+  artifactKey: Guid(71d0ae4a494e24fc8842080c57cdeee7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Shaders/Lit/Materials/OcclusionOn.mat using Guid(71d0ae4a494e24fc8842080c57cdeee7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dac3998b38c24ccbe8c84ccb908d8adf') in 0.0293578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/CameraStacking/3D Skybox/3DSkybox.unity
+  artifactKey: Guid(8781056d0ad464ffd85d0927f3bf4f76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/CameraStacking/3D Skybox/3DSkybox.unity using Guid(8781056d0ad464ffd85d0927f3bf4f76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '435cf40360cb49cefa12f93b85fe0876') in 0.1306607 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
-  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '00c6a256cd2a06f6a9836298b2286e84') in 0.0441454 seconds
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Shaders/Lit/Materials/WithoutNormalMap.mat
+  artifactKey: Guid(92b3aa099ecb9483381c91aba9894aad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Shaders/Lit/Materials/WithoutNormalMap.mat using Guid(92b3aa099ecb9483381c91aba9894aad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '26d5840d10b3a5cf0f9d1ef7e758f9b0') in 0.0991759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Decals/BlobShadow/BlobShadow_Mat.mat
+  artifactKey: Guid(ecee61e47a05b47ca91f89049a9cb014) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Decals/BlobShadow/BlobShadow_Mat.mat using Guid(ecee61e47a05b47ca91f89049a9cb014) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '591ecc33d52d542af72ce7253a10f428') in 0.0318265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/BlitToRTHandle/BlitToRTHandle.unity
+  artifactKey: Guid(8da0dc751e2a2d34e939aa822adfd0cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/BlitToRTHandle/BlitToRTHandle.unity using Guid(8da0dc751e2a2d34e939aa822adfd0cd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7c675202846e93a3f3e71d602451ced3') in 0.1597961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Shaders/Lit/Lit/LitLighting.lighting
+  artifactKey: Guid(cce5fc22d530544e9baddea9febf9776) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Shaders/Lit/Lit/LitLighting.lighting using Guid(cce5fc22d530544e9baddea9febf9776) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)LightingSettings: switching bake backend from 2 to 1.
+ -> (artifact id: '31e94dfe6145e1cd1fccf44d80851fa6') in 0.1037002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/CameraStacking/MixedFOV/MixedFOV
+  artifactKey: Guid(4d0459b26d98647c68bb5848c8f4ce63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/CameraStacking/MixedFOV/MixedFOV using Guid(4d0459b26d98647c68bb5848c8f4ce63) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2c75fe05bbbdf2b9c1aede96ececfaf6') in 0.0238344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/CameraStacking/3D Skybox/Materials/Building.mat
+  artifactKey: Guid(e3a93228db90c4c7dbd3b23103a258ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/CameraStacking/3D Skybox/Materials/Building.mat using Guid(e3a93228db90c4c7dbd3b23103a258ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c5dc0f57b59e0411bdbb99fea190a4a4') in 0.0253252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Decals/ProxyLighting/Materials/BlueSpotlight.mat
+  artifactKey: Guid(c648de8231cde4fdfa786d06e5d8ad57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Decals/ProxyLighting/Materials/BlueSpotlight.mat using Guid(c648de8231cde4fdfa786d06e5d8ad57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '023ee131464dc98159d57b143b5d998b') in 0.022911 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Decals/BlobShadow/Animation/BlobShadowAnimation.anim
+  artifactKey: Guid(ecfc880814a8145eaa0d67e4320ba3ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Decals/BlobShadow/Animation/BlobShadowAnimation.anim using Guid(ecfc880814a8145eaa0d67e4320ba3ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cc3d4972b2b52734be2f11af1e0f15b6') in 0.0847734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Lighting/Reflection Probes/Reflection Probes/ReflectionProbe-1.exr
+  artifactKey: Guid(17a3d2d7d70038449aee27a89fa2b95b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Lighting/Reflection Probes/Reflection Probes/ReflectionProbe-1.exr using Guid(17a3d2d7d70038449aee27a89fa2b95b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '77f109adfc334e5a6e0a0a1d78b8a707') in 0.1700902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Decals/PaintSplat/WorldSpaceUV.shadersubgraph
+  artifactKey: Guid(4e7100eadfb604b5dafdeb24acba5c3a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Decals/PaintSplat/WorldSpaceUV.shadersubgraph using Guid(4e7100eadfb604b5dafdeb24acba5c3a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '47dc96ad55548df69be39b4ccf369c40') in 0.3553703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/DepthBlit/DepthBlitFeature.cs
+  artifactKey: Guid(33cc082f71c590946a88691cac2dfa25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/DepthBlit/DepthBlitFeature.cs using Guid(33cc082f71c590946a88691cac2dfa25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5370b4b321dd80b9d2393e786ac8e5aa') in 0.0211316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ShadowMaterial.mat
+  artifactKey: Guid(ce8927555bf1c1e43958b4cf2d23123d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/ShadowMaterial.mat using Guid(ce8927555bf1c1e43958b4cf2d23123d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '43312910b869561cf5cadd72b12a7b2a') in 0.1709388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/CameraStacking/3D Skybox/3DSkybox/3DSkyboxProfile.asset
+  artifactKey: Guid(e5037333675764c8c851898734300e9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/CameraStacking/3D Skybox/3DSkybox/3DSkyboxProfile.asset using Guid(e5037333675764c8c851898734300e9f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'add9a5de9f9d40d0fb4f091419f73171') in 0.056334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Shaders/Lit/Materials/BlueEmission.mat
+  artifactKey: Guid(0c32055e4135a484b913cc24d7fd1be5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Shaders/Lit/Materials/BlueEmission.mat using Guid(0c32055e4135a484b913cc24d7fd1be5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fa4c2674ae818704100a21aeb241ec1f') in 0.023719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/CameraStacking/3D Skybox/Materials/Planet 1.mat
+  artifactKey: Guid(a5cb8f46ef6d74dad945d8966c0de9d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/CameraStacking/3D Skybox/Materials/Planet 1.mat using Guid(a5cb8f46ef6d74dad945d8966c0de9d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '638fa6e7d3aad7387c1f9b05f5e09ba4') in 0.0820115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/LensFlares/LensFlarePresets/Sun.asset
+  artifactKey: Guid(69ffd98bf7a2a4bf9a1217c6d30c381d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/LensFlares/LensFlarePresets/Sun.asset using Guid(69ffd98bf7a2a4bf9a1217c6d30c381d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dea9087981a6fb9112cd86f6b9fffa65') in 0.0277128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/KeepFrame/KeepFrame.unity
+  artifactKey: Guid(c06589f423b034431a4fbad7456d5847) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/KeepFrame/KeepFrame.unity using Guid(c06589f423b034431a4fbad7456d5847) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4e5021e4f7b1f6d78e1b8d78abb12730') in 0.0344624 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/LensFlares/Textures/Shimmer.png
+  artifactKey: Guid(fc0e248a658684c3e8fe68d5931552b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/LensFlares/Textures/Shimmer.png using Guid(fc0e248a658684c3e8fe68d5931552b9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd6529daf74d23f65210f961722ba3a7a') in 0.0289579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Shaders/Lit/Textures
+  artifactKey: Guid(c2d289074b20e41a7ac1b34aeb91678a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Shaders/Lit/Textures using Guid(c2d289074b20e41a7ac1b34aeb91678a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9a209181870829ca11ad0b68cf0d5d80') in 0.2229767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Decals/PaintSplat/PaintSplat/ReflectionProbe-0.exr
+  artifactKey: Guid(edced805fb57e422386a4f16214690d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Decals/PaintSplat/PaintSplat/ReflectionProbe-0.exr using Guid(edced805fb57e422386a4f16214690d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0136a58c962842a29026a949fcfba47d') in 0.2101817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/DistortTunnel
+  artifactKey: Guid(6a095097d8c042e4f89ec9e8266469af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/DistortTunnel using Guid(6a095097d8c042e4f89ec9e8266469af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f382ef44a00b655c509d80d69457f204') in 0.0326912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Shaders/Lit/Textures/Coins_Emission.png
+  artifactKey: Guid(cf0d2fe215a8b47b0bccff3401e2e62c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Shaders/Lit/Textures/Coins_Emission.png using Guid(cf0d2fe215a8b47b0bccff3401e2e62c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '21f4bbbeb2d30c4e45af3480922cdf34') in 0.1592134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/CameraStacking/3D Skybox/Prefabs/MediumDetailBlock.prefab
+  artifactKey: Guid(bf5c1cd68667849578410288846be21f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/CameraStacking/3D Skybox/Prefabs/MediumDetailBlock.prefab using Guid(bf5c1cd68667849578410288846be21f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '76ebcec732c5bc2f40c7c3ebbe173bf2') in 0.1381538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 40
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000041 seconds.
-  path: Assets/Settings/Mobile_RPAsset.asset
-  artifactKey: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '43aa4e4f85e7191fbf2aa473d3e5ded7') in 0.1054057 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Decals/PaintSplat/PaintSplat.unity
+  artifactKey: Guid(43da964a9f8d64b21bcfe5ecded1f664) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Decals/PaintSplat/PaintSplat.unity using Guid(43da964a9f8d64b21bcfe5ecded1f664) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b13b5c9f0f230cf77d3400d79174362a') in 0.0386021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Settings/PC_RPAsset.asset
-  artifactKey: Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Settings/PC_RPAsset.asset using Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8a9c93e2af3f8b3c9c443611f0ef2f10') in 0.036742 seconds
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Lighting/Reflection Probes/Scene Materials
+  artifactKey: Guid(2f63fa16f6168af40ae33f6fd51d0e89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Lighting/Reflection Probes/Scene Materials using Guid(2f63fa16f6168af40ae33f6fd51d0e89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2a8e0962bfecf509b5eef19501c096e2') in 0.0205794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/SharedAssets/Shaders/3DText.shader
+  artifactKey: Guid(7a569675ca1684464936259e1101c412) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/SharedAssets/Shaders/3DText.shader using Guid(7a569675ca1684464936259e1101c412) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '66bf5673f2da8f06efa5a44adc97dd15') in 0.0214343 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
-  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a46fb5f6039c8f61abea00873343cdd8') in 0.0889437 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Shaders/Lit/Prefabs/3Podium.prefab
+  artifactKey: Guid(7689a0ffc4ed74a58b7298d31e1d3283) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Shaders/Lit/Prefabs/3Podium.prefab using Guid(7689a0ffc4ed74a58b7298d31e1d3283) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e11bbe22370290d1afcbeb0f97e92a48') in 0.0726181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 49
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/DepthBlit/DepthBlitRenderer.asset
+  artifactKey: Guid(70d0150bbea463d4596f5a2dd00cf603) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/RendererFeatures/DepthBlit/DepthBlitRenderer.asset using Guid(70d0150bbea463d4596f5a2dd00cf603) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '28cb36a2f56607d94ef9aa9564402196') in 0.0422166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Decals/ProxyLighting/ProxyLightingPipeline_Renderer.asset
+  artifactKey: Guid(7cff376ab52df4ec2851903e4b87d286) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Samples/Universal Render Pipeline/17.3.0/URP Package Samples/Decals/ProxyLighting/ProxyLightingPipeline_Renderer.asset using Guid(7cff376ab52df4ec2851903e4b87d286) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bc1cdc8ef1c576df99180da574ca3709') in 0.0569601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
