@@ -157,6 +157,7 @@ GameObject:
   - component: {fileID: 7732130596313850537}
   - component: {fileID: 382155209071969871}
   - component: {fileID: 6253156043129400849}
+  - component: {fileID: 7648310101107019212}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -241,3 +242,18 @@ MonoBehaviour:
   playerCollider: {fileID: 4633729690670659919}
   jumpAction: {fileID: 0}
   controller: {fileID: 7732130596313850537}
+--- !u!114 &7648310101107019212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3302180796233367799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5794aeb6cf5f0c347a5d3b8844081277, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerControl
+  ledgeGrabScript: {fileID: 6253156043129400849}
+  movementScript: {fileID: 382155209071969871}
+  playerObject: {fileID: 3302180796233367799}

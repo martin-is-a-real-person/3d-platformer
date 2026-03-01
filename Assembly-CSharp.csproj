@@ -55,6 +55,7 @@
     <Compile Include="Assets\Scripts\MovementScript.cs" />
     <Compile Include="Assets\Scripts\ButtonScript.cs" />
     <Compile Include="Assets\Scripts\WallCollision.cs" />
+    <Compile Include="Assets\Scripts\PlayerControl.cs" />
     <Compile Include="Assets\Scripts\LedgeGrabbing.cs" />
     <Compile Include="Assets\Scripts\SpikeDamage.cs" />
     <Compile Include="Assets\Scripts\SceneTransitionManager.cs" />

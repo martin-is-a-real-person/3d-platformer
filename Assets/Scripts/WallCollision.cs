@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class WallCollision : MonoBehaviour
 {
+    public string currentSceneName;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -19,7 +20,7 @@ public class WallCollision : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(currentSceneName);
         }
     }
 }
