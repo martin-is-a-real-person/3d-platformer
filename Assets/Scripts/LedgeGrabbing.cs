@@ -1,13 +1,15 @@
 using System.Collections;
+using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class LedgeGrabbing : MonoBehaviour
 {
     private int ledgeLayer;
-    public Camera cam;
+    public Transform playerEyes;
     private float playerHeight = 2f;
     private float playerRadius = 0.5f;
+    public Collider playerCollider;
 
     public InputActionReference jumpAction;
 
@@ -16,6 +18,7 @@ public class LedgeGrabbing : MonoBehaviour
     void Start()
     {
         ledgeLayer = LayerMask.NameToLayer("Platforms");
+        ledgeLayer = ~ledgeLayer;
     }
 
     // Update is called once per frame
@@ -28,10 +31,10 @@ public class LedgeGrabbing : MonoBehaviour
     {
         if (controller.velocity.y < 0)
         {
-            if (Physics.Raycast(cam.transform.position, cam.transform.forward, out var firstHit, 1f, ledgeLayer))
+            if (Physics.Raycast(playerEyes.transform.position, playerEyes.transform.TransformDirection(Vector3.forward), out var firstHit, 1f, ledgeLayer))
             {
                 Debug.Log("Ledge found");
-                if (Physics.Raycast(firstHit.point + (cam.transform.forward * playerRadius) + (Vector3.up * 0.6f * playerHeight), Vector3.down, out var secondHit, playerHeight))
+                if (Physics.Raycast(firstHit.point + (playerEyes.transform.TransformDirection(Vector3.forward) * playerRadius) + (Vector3.up * 0.6f * playerHeight), Vector3.down, out var secondHit, playerHeight))
                 {
                     Debug.Log("Landing point found");
                     StartCoroutine(LerpGrab(secondHit.point, 0.5f));
@@ -44,6 +47,7 @@ public class LedgeGrabbing : MonoBehaviour
     {
         float time = 0;
         Vector3 startPosition = transform.position;
+        playerCollider.enabled = false;
 
         while (time < duration)
         {
@@ -52,5 +56,6 @@ public class LedgeGrabbing : MonoBehaviour
             yield return null;
         }
         transform.position = targetPosition;
+        playerCollider.enabled = true;
     }
 }

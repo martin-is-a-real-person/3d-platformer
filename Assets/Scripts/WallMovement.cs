@@ -19,7 +19,7 @@ public class WallMovement : MonoBehaviour
     {
         if (!hasMoved)
         {
-            if (controller.velocity != Vector3.zero)
+            if (controller.velocity.z != 0)
             {
                 hasMoved = true;
             }
