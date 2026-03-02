@@ -81,8 +81,6 @@ public class MovementScript : MonoBehaviour
             playerVelocity.y += gravityValue * jumpCancelledMultiplier * Time.deltaTime;
         }
 
-        LedgeGrab();
-
         // Apply gravity
         playerVelocity.y += gravityValue * Time.deltaTime;
 
@@ -122,20 +120,20 @@ public class MovementScript : MonoBehaviour
 
                 if (forwardHit.collider != null)
                 {
-                    gravityValue = 0;
-
                     hanging = true;
                     canMove = false;
 
-                    //hanging animation
+                    //climbing animation
 
                     Vector3 hangingPos = new Vector3(forwardHit.point.x, downHit.point.y, forwardHit.point.z);
-                    Vector3 offset = transform.forward * -0.1f + transform.up * -1f;
-                    hangingPos += offset;
+                    Vector3 finalPos = new Vector3(forwardHit.point.x - 3, downHit.point.y - 3, forwardHit.point.z - 3);
 
                     transform.position = hangingPos;
-
                     transform.forward = -forwardHit.normal;
+
+                    Vector3.MoveTowards(hangingPos, finalPos, 5);
+                    hanging = false;
+                    canMove = true;
                 }
             }
         }

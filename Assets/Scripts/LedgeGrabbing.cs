@@ -1,61 +1,61 @@
+using System.Collections;
+using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class LedgeGrabbing : MonoBehaviour
 {
-    // References
-    public MovementScript ms;
-    public Transform orientation;
-    public Transform cam;
-    public InputActionReference moveAction;
+    private int ledgeLayer;
+    public Transform playerEyes;
+    private float playerHeight = 2f;
+    private float playerRadius = 0.5f;
+    public Collider playerCollider;
 
-    // Ledge detection
-    public float ledgeDetectionLength;
-    public float ledgeSphereCastRadius;
-    public LayerMask whatIsLedge;
+    public InputActionReference jumpAction;
 
-    private Transform lastLedge;
-    private Transform currentLedge;
+    public CharacterController controller;
 
-    private RaycastHit ledgeHit;
-
-    // Ledge grabbing
-    public float maxLedgeGrabDistance;
-    public bool holding;
+    void Start()
+    {
+        ledgeLayer = LayerMask.NameToLayer("Platforms");
+        ledgeLayer = ~ledgeLayer;
+    }
 
     // Update is called once per frame
     void Update()
     {
-        LedgeDetect();
+        Grab();
     }
 
-    private void LedgeDetect()
+    private void Grab()
     {
-        bool ledgeDetected = Physics.SphereCast(transform.position, ledgeSphereCastRadius, cam.forward, out ledgeHit, ledgeDetectionLength, whatIsLedge);
-
-        if (!ledgeDetected)
+        if (controller.velocity.y < 0)
         {
-            return;
-        }
-
-        if (ledgeHit.transform == lastLedge)
-        {
-            return;
-        }
-
-        float distanceToLedge = Vector3.Distance(transform.position, ledgeHit.transform.position);
-
-        if (distanceToLedge < maxLedgeGrabDistance && !holding)
-        {
-            EnterLedgeHold();
+            if (Physics.Raycast(playerEyes.transform.position, playerEyes.transform.TransformDirection(Vector3.forward), out var firstHit, 1f, ledgeLayer))
+            {
+                Debug.Log("Ledge found");
+                if (Physics.Raycast(firstHit.point + (playerEyes.transform.TransformDirection(Vector3.forward) * playerRadius) + (Vector3.up * 0.6f * playerHeight), Vector3.down, out var secondHit, playerHeight))
+                {
+                    Debug.Log("Landing point found");
+                    StartCoroutine(LerpGrab(secondHit.point, 0.5f));
+                }
+            }
         }
     }
 
-    private void EnterLedgeHold()
+    IEnumerator LerpGrab(Vector3 targetPosition, float duration)
     {
-        holding = true;
+        float time = 0;
+        Vector3 startPosition = transform.position;
+        playerCollider.enabled = false;
 
-        currentLedge = ledgeHit.transform;
-        lastLedge = ledgeHit.transform;
+        while (time < duration)
+        {
+            transform.position = Vector3.Lerp(startPosition, targetPosition, time / duration);
+            time += Time.deltaTime;
+            yield return null;
+        }
+        transform.position = targetPosition;
+        playerCollider.enabled = true;
     }
 }
