@@ -21,6 +21,9 @@ public class MovementScript : MonoBehaviour
 
     private Transform cameraTransform;
 
+    [SerializeField] private float coyoteTime = 0.5f;
+    private float coyoteTimeCounter;
+
     [Header("Input Actions")]
     public InputActionReference moveAction;
     public InputActionReference jumpAction;
@@ -49,13 +52,20 @@ public class MovementScript : MonoBehaviour
 
         if (groundedPlayer)
         {
+            coyoteTimeCounter = coyoteTime;
+
             // Slight downward velocity to keep grounded stable
             if (playerVelocity.y < -2f)
                 playerVelocity.y = -2f;
         }
 
-        // Read input
-        Vector2 input = moveAction.action.ReadValue<Vector2>();
+        else
+        {
+            coyoteTimeCounter -= Time.deltaTime;
+        }
+
+            // Read input
+            Vector2 input = moveAction.action.ReadValue<Vector2>();
         move = new Vector3(input.x, 0, input.y);
         move = cameraTransform.forward * move.z + cameraTransform.right * move.x;
         move.y = 0f;
@@ -70,9 +80,10 @@ public class MovementScript : MonoBehaviour
             playerVelocity.y = Mathf.Sqrt(jumpHeight * -2f * gravityValue);
         }
 
-        else if (groundedPlayer && jumpAction.action.WasPressedThisFrame())
+        else if (coyoteTimeCounter > 0f && jumpAction.action.WasPressedThisFrame())
         {
             playerVelocity.y = Mathf.Sqrt(jumpHeight * -2f * gravityValue);
+            coyoteTimeCounter = 0f;
         }
 
         if (playerVelocity.y > 0 && jumpAction.action.IsPressed() == false)

@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movementscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|c:\\users\\jonam\\kristiania\\projects\\games\\3d-platformer\\assets\\scripts\\wallcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|C:\\Users\\jonam\\Kristiania\\Projects\\Games\\3d-platformer\\assets\\scripts\\wallcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wallcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,7 +27,7 @@
       "RelativeMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenetransitionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|c:\\users\\jonam\\kristiania\\projects\\games\\3d-platformer\\assets\\scripts\\cutscenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|C:\\Users\\jonam\\Kristiania\\Projects\\Games\\3d-platformer\\assets\\scripts\\cutscenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cutscenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -48,7 +48,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\MovementScript.cs",
               "ToolTip": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\MovementScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\MovementScript.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwFIAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-26T15:41:16.403Z",
               "EditorCaption": ""
@@ -63,8 +63,7 @@
               "RelativeToolTip": "Assets\\Scripts\\WallCollision.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T15:39:25.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-26T15:39:25.97Z"
             },
             {
               "$type": "Document",
@@ -76,8 +75,7 @@
               "RelativeToolTip": "Assets\\Scripts\\SceneTransitionManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T12:22:25.331Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-26T12:22:25.331Z"
             },
             {
               "$type": "Document",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerRespawn.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T11:47:16.003Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-26T11:47:16.003Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "Assets\\Scripts\\LedgeGrabbing.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T11:45:30.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-26T11:45:30.027Z"
             },
             {
               "$type": "Document",
@@ -115,8 +111,7 @@
               "RelativeToolTip": "Assets\\Scripts\\CutsceneManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T11:33:09.79Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-26T11:33:09.79Z"
             },
             {
               "$type": "Document",
@@ -128,8 +123,7 @@
               "RelativeToolTip": "Assets\\Scripts\\SpikeDamage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T09:38:38.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-26T09:38:38.432Z"
             }
           ]
         }
