@@ -3958,6 +3958,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Reality Wall
       objectReference: {fileID: 0}
+    - target: {fileID: 5869077073912530312, guid: 05a2e42e24864d1479a1b68c342b53ee, type: 3}
+      propertyPath: currentSceneName
+      value: Demo
+      objectReference: {fileID: 0}
     - target: {fileID: 7412932084320830993, guid: 05a2e42e24864d1479a1b68c342b53ee, type: 3}
       propertyPath: controller
       value: 
