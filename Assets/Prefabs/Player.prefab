@@ -224,6 +224,7 @@ MonoBehaviour:
   jumpCancelledMultiplier: 10
   controller: {fileID: 7732130596313850537}
   forwardDistance: 100
+  coyoteTime: 0.5
   moveAction: {fileID: 0}
   jumpAction: {fileID: 0}
 --- !u!114 &6253156043129400849
@@ -238,7 +239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e24e4a3cf1c93349aaf38d166d33e9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LedgeGrabbing
-  playerEyes: {fileID: 2823406112996070861}
+  playerEyes: {fileID: 5435803920887272839}
   playerCollider: {fileID: 4633729690670659919}
   jumpAction: {fileID: 0}
   controller: {fileID: 7732130596313850537}

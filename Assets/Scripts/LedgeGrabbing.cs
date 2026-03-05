@@ -1,5 +1,6 @@
 using System.Collections;
 using Unity.Cinemachine;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -14,16 +15,19 @@ public class LedgeGrabbing : MonoBehaviour
     public InputActionReference jumpAction;
 
     public CharacterController controller;
+    private Transform cameraTransform;
 
     void Start()
     {
         ledgeLayer = LayerMask.NameToLayer("Platforms");
         ledgeLayer = ~ledgeLayer;
+        cameraTransform = Camera.main.transform;
     }
 
     // Update is called once per frame
     void Update()
     {
+        playerEyes = cameraTransform;
         Grab();
     }
 
