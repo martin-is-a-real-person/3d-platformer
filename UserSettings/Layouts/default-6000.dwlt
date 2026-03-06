@@ -195,8 +195,8 @@ MonoBehaviour:
     y: 473.33334
     width: 806
     height: 446.66666
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 226}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -221,8 +221,8 @@ MonoBehaviour:
     y: 0
     width: 272.66663
     height: 920
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 226}
+  m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -1272,9 +1272,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -1.7169256, y: 42.853573, z: -10.5919485}
+    m_Target: {x: 35.23285, y: 63.614887, z: -10.438587}
     speed: 2
-    m_Value: {x: -1.7169256, y: 42.853573, z: -10.5919485}
+    m_Value: {x: 35.23285, y: 63.614887, z: -10.438587}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1320,13 +1320,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.061832484, y: -0.89879626, z: 0.12861691, w: 0.41578597}
+    m_Target: {x: 0.16780376, y: -0.8184913, z: 0.2864925, w: 0.47087657}
     speed: 2
-    m_Value: {x: 0.061670594, y: -0.89872724, z: 0.12860936, w: 0.41466343}
+    m_Value: {x: 0.1593181, y: -0.8266108, z: 0.28011808, w: 0.46137434}
   m_Size:
-    m_Target: 21.054602
+    m_Target: 68.77544
     speed: 2
-    m_Value: 20.147943
+    m_Value: 65.81381
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1453,8 +1453,15 @@ MonoBehaviour:
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -1360
-      - m_Data: 48480
+      - m_Data: -73320
+      - m_Data: -72044
+      - m_Data: -71722
+      - m_Data: -71506
+      - m_Data: -4234
+      - m_Data: -3802
+      - m_Data: -1346
+      - m_Data: 48302
+      - m_Data: 109872
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1528,7 +1535,8 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders: []
+    m_Folders:
+    - Assets/Scenes
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1550,11 +1558,11 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 48624
-    - m_Data: 48626
-    - m_Data: 48628
-    - m_Data: 48630
-    - m_Data: 48632
+    - m_Data: 48976
+    - m_Data: 48978
+    - m_Data: 48980
+    - m_Data: 48982
+    - m_Data: 48984
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1587,11 +1595,12 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 48624
-    - m_Data: 48626
-    - m_Data: 48628
-    - m_Data: 48630
-    - m_Data: 48632
+    - m_Data: 48976
+    - m_Data: 48978
+    - m_Data: 48980
+    - m_Data: 48982
+    - m_Data: 48984
+    - m_Data: 49338
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
