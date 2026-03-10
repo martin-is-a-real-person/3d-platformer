@@ -5,6 +5,7 @@ using UnityEngine.Video;
 public class CutsceneManager : MonoBehaviour
 {
     private VideoPlayer cutscenePlayer;
+    public bool autoplay;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -25,15 +26,29 @@ public class CutsceneManager : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.CompareTag("Player") && Input.GetKey(KeyCode.E))
+        if (autoplay)
         {
-            cutscenePlayer.Play();
+            if (other.CompareTag("Player"))
+            {
+                cutscenePlayer.Play();
 
-            Time.timeScale = 0f;
+                Time.timeScale = 0f;
 
-            Debug.Log("Cutscene playing");
+                Debug.Log("Cutscene playing");
+            }
         }
 
+        else
+        {
+            if (other.CompareTag("Player") && Input.GetKey(KeyCode.E))
+            {
+                cutscenePlayer.Play();
+
+                Time.timeScale = 0f;
+
+                Debug.Log("Cutscene playing");
+            }
+        }
     }
 
     void OnCutsceneFinished(VideoPlayer vp)
