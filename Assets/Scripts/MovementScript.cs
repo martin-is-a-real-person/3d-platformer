@@ -64,8 +64,8 @@ public class MovementScript : MonoBehaviour
             coyoteTimeCounter -= Time.deltaTime;
         }
 
-            // Read input
-            Vector2 input = moveAction.action.ReadValue<Vector2>();
+        // Read input
+        Vector2 input = moveAction.action.ReadValue<Vector2>();
         move = new Vector3(input.x, 0, input.y);
         move = cameraTransform.forward * move.z + cameraTransform.right * move.x;
         move.y = 0f;
@@ -84,6 +84,7 @@ public class MovementScript : MonoBehaviour
         {
             playerVelocity.y = Mathf.Sqrt(jumpHeight * -2f * gravityValue);
             coyoteTimeCounter = 0f;
+            SoundManager.PlaySound(SoundType.SHORTJUMP, 1);
         }
 
         if (playerVelocity.y > 0 && jumpAction.action.IsPressed() == false)
@@ -143,6 +144,9 @@ public class MovementScript : MonoBehaviour
                     transform.forward = -forwardHit.normal;
 
                     Vector3.MoveTowards(hangingPos, finalPos, 5);
+
+                    SoundManager.PlaySound(SoundType.GRAB, 1);
+
                     hanging = false;
                     canMove = true;
                 }
