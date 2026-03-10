@@ -6,7 +6,7 @@ public class MovementScript : MonoBehaviour
 {
     public float playerSpeed = 5.0f;
     public float jumpHeight = 1.5f;
-    private float gravityValue = -9.81f;
+    private float gravityValue = -12f;
     public float jumpCancelledMultiplier = 3.0f;
     private Vector3 move;
 
