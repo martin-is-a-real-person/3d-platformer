@@ -5,9 +5,17 @@ using UnityEngine.InputSystem;
 public class MovementScript : MonoBehaviour
 {
     public float playerSpeed = 5.0f;
-    public float jumpHeight = 1.5f;
-    private float gravityValue = -12f;
-    public float jumpCancelledMultiplier = 3.0f;
+
+
+    public float jumpForce = 12f;
+    public float gravity = -25f;
+    public float fallMultiplier = 2.2f;
+    public float lowJumpMultiplier = 2f;
+    public int maxJumps = 1;
+
+    private int jumpCount;
+    private float yVelocity;
+
     private Vector3 move;
 
     public CharacterController controller;
@@ -21,7 +29,7 @@ public class MovementScript : MonoBehaviour
 
     private Transform cameraTransform;
 
-    [SerializeField] private float coyoteTime = 0.5f;
+    [SerializeField] private float coyoteTime = 0.2f;
     private float coyoteTimeCounter;
 
     [Header("Input Actions")]
@@ -54,9 +62,12 @@ public class MovementScript : MonoBehaviour
         {
             coyoteTimeCounter = coyoteTime;
 
-            // Slight downward velocity to keep grounded stable
-            if (playerVelocity.y < -2f)
-                playerVelocity.y = -2f;
+            if (yVelocity < -2f)
+            {
+                yVelocity = -2f;
+            }
+
+            jumpCount = 0;
         }
 
         else
@@ -74,36 +85,45 @@ public class MovementScript : MonoBehaviour
         // Jump using WasPressedThisFrame()
         if (hanging && jumpAction.action.WasPressedThisFrame())
         {
-            gravityValue = -9.81f;
             hanging = false;
             StartCoroutine(EnableCanMove(0.25f));
-            playerVelocity.y = Mathf.Sqrt(jumpHeight * -2f * gravityValue);
+
+            yVelocity = jumpForce;
+            jumpCount++;
+
         }
 
-        else if (coyoteTimeCounter > 0f && jumpAction.action.WasPressedThisFrame())
+        else if (jumpAction.action.WasPressedThisFrame() && (jumpCount < maxJumps || coyoteTimeCounter > 0f))
         {
-            playerVelocity.y = Mathf.Sqrt(jumpHeight * -2f * gravityValue);
-            coyoteTimeCounter = 0f;
-            SoundManager.PlaySound(SoundType.SHORTJUMP, 1);
+            yVelocity = jumpForce;
+            jumpCount++;
+            coyoteTimeCounter =0f;
         }
 
-        if (playerVelocity.y > 0 && jumpAction.action.IsPressed() == false)
+        if (yVelocity < 0)
         {
-            // Apply extra downward force (increased gravity)
-            playerVelocity.y += gravityValue * jumpCancelledMultiplier * Time.deltaTime;
+            yVelocity += gravity * fallMultiplier * Time.deltaTime;
         }
 
-        // Apply gravity
-        playerVelocity.y += gravityValue * Time.deltaTime;
+        else if (yVelocity > 0 && !jumpAction.action.IsPressed())
+        {
+            yVelocity += gravity * lowJumpMultiplier * Time.deltaTime;
+        }
+
+        else
+        {
+            yVelocity += gravity * Time.deltaTime;
+        }
 
         if (!canMove)
         {
             move = Vector3.zero;
         }
 
-        // Move
-        Vector3 finalMove = move * playerSpeed + Vector3.up * playerVelocity.y;
+        Vector3 finalMove = move * playerSpeed + Vector3.up * yVelocity;
         controller.Move(finalMove * Time.deltaTime);
+
+        Debug.Log("Velocity:" + yVelocity);
     }
 
     IEnumerator EnableCanMove(float waitTime)

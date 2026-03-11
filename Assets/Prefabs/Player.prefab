@@ -220,8 +220,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MovementScript
   playerSpeed: 12
-  jumpHeight: 4
-  jumpCancelledMultiplier: 10
+  jumpForce: 20
+  gravity: -25
+  fallMultiplier: 2.2
+  lowJumpMultiplier: 2
+  maxJumps: 1
   controller: {fileID: 7732130596313850537}
   forwardDistance: 100
   coyoteTime: 0.2
