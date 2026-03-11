@@ -224,7 +224,7 @@ MonoBehaviour:
   jumpCancelledMultiplier: 10
   controller: {fileID: 7732130596313850537}
   forwardDistance: 100
-  coyoteTime: 0.5
+  coyoteTime: 0.2
   moveAction: {fileID: 0}
   jumpAction: {fileID: 0}
 --- !u!114 &6253156043129400849
