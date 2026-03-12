@@ -53,6 +53,8 @@ public class LedgeGrabbing : MonoBehaviour
         Vector3 startPosition = transform.position;
         playerCollider.enabled = false;
 
+        SoundManager.PlaySound(SoundType.GRAB, 1);
+
         while (time < duration)
         {
             transform.position = Vector3.Lerp(startPosition, targetPosition, time / duration);

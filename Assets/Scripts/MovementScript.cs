@@ -93,11 +93,12 @@ public class MovementScript : MonoBehaviour
 
         }
 
-        else if (jumpAction.action.WasPressedThisFrame() && (jumpCount < maxJumps || coyoteTimeCounter > 0f))
+        else if (jumpAction.action.WasPressedThisFrame() && (jumpCount < maxJumps || coyoteTimeCounter > 0f) && groundedPlayer)
         {
             yVelocity = jumpForce;
             jumpCount++;
             coyoteTimeCounter =0f;
+            SoundManager.PlaySound(SoundType.SHORTJUMP, 1);
         }
 
         if (yVelocity < 0)
@@ -130,47 +131,5 @@ public class MovementScript : MonoBehaviour
     {
         yield return new WaitForSeconds(waitTime);
         canMove = true;
-    }
-
-    void LedgeGrab()
-    {
-        if (controller.velocity.y < 0 && !hanging)
-        {
-            RaycastHit downHit;
-            Vector3 lineDownStart = transform.position + Vector3.up * -2f + transform.forward;
-            Vector3 lineDownEnd = transform.position + Vector3.up * -1f + transform.forward;
-            Physics.Linecast(lineDownStart, lineDownEnd, out downHit, LayerMask.GetMask("Platforms"));
-            Debug.DrawLine(lineDownStart, lineDownEnd);
-
-            if (downHit.collider != null)
-            {
-                RaycastHit forwardHit;
-                Vector3 lineForwardStart = new Vector3(transform.position.x, downHit.point.y + 0.1f, transform.position.z);
-                Vector3 lineForwardEnd = new Vector3(transform.position.x, downHit.point.y + 0.1f, transform.position.z) + transform.forward * forwardDistance;
-                Physics.Linecast(lineForwardStart, lineForwardEnd, out forwardHit, LayerMask.GetMask("Platforms"));
-                Debug.DrawLine(lineForwardStart, lineForwardEnd);
-
-                if (forwardHit.collider != null)
-                {
-                    hanging = true;
-                    canMove = false;
-
-                    //climbing animation
-
-                    Vector3 hangingPos = new Vector3(forwardHit.point.x, downHit.point.y, forwardHit.point.z);
-                    Vector3 finalPos = new Vector3(forwardHit.point.x - 3, downHit.point.y - 3, forwardHit.point.z - 3);
-
-                    transform.position = hangingPos;
-                    transform.forward = -forwardHit.normal;
-
-                    Vector3.MoveTowards(hangingPos, finalPos, 5);
-
-                    SoundManager.PlaySound(SoundType.GRAB, 1);
-
-                    hanging = false;
-                    canMove = true;
-                }
-            }
-        }
     }
 }
