@@ -1,50 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\3d-platformer\\",
+  "WorkspaceRootPath": "C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|c:\\users\\jonam\\kristiania\\projects\\games\\3d-platformer\\assets\\scripts\\movementscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\assets\\scripts\\ledgegrabbing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ledgegrabbing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|c:\\users\\jona\\kristiania\\projects\\games\\3d-platformer\\assets\\scripts\\movementscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movementscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|C:\\Users\\jonam\\Kristiania\\Projects\\Games\\3d-platformer\\assets\\scripts\\wallmovementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wallmovementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|C:\\Users\\jonam\\Kristiania\\Projects\\Games\\3d-platformer\\assets\\scripts\\walltriggerzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\walltriggerzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|C:\\Users\\jonam\\Kristiania\\Projects\\Games\\3d-platformer\\assets\\scripts\\wallmovementmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wallmovementmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|C:\\Users\\jonam\\Kristiania\\Projects\\Games\\3d-platformer\\assets\\scripts\\spikedamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spikedamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|C:\\Users\\jonam\\Kristiania\\Projects\\Games\\3d-platformer\\assets\\scripts\\wallmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\assets\\scripts\\wallmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wallmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|C:\\Users\\jonam\\Kristiania\\Projects\\Games\\3d-platformer\\assets\\scripts\\scenetransitionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\assets\\scripts\\wallmovementmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wallmovementmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\assets\\scripts\\scenetransitionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenetransitionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|C:\\Users\\jonam\\Kristiania\\Projects\\Games\\3d-platformer\\assets\\scripts\\cutscenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\assets\\scripts\\wallmovementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wallmovementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\assets\\scripts\\walltriggerzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\walltriggerzone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\assets\\scripts\\spikedamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spikedamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\assets\\scripts\\cutscenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cutscenemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|C:\\Users\\jonam\\Kristiania\\Projects\\Games\\3d-platformer\\assets\\scripts\\playerrespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\assets\\scripts\\playerrespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerrespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|C:\\Users\\jonam\\Kristiania\\Projects\\Games\\3d-platformer\\assets\\scripts\\wallcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\assets\\scripts\\wallcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\wallcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|C:\\Users\\jonam\\Kristiania\\Projects\\Games\\3d-platformer\\assets\\scripts\\ledgegrabbing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9CE8DE5-ECF2-8438-4285-E0AF4321E697}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ledgegrabbing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,27 +54,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "WallMovementMode.cs",
-              "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\WallMovementMode.cs",
+              "DocumentMoniker": "C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\WallMovementMode.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\WallMovementMode.cs",
-              "ToolTip": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\WallMovementMode.cs",
+              "ToolTip": "C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\WallMovementMode.cs",
               "RelativeToolTip": "Assets\\Scripts\\WallMovementMode.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T10:10:17.854Z"
+              "WhenOpened": "2026-03-05T10:10:17.854Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "WallTriggerZone.cs",
-              "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\WallTriggerZone.cs",
+              "DocumentMoniker": "C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\WallTriggerZone.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\WallTriggerZone.cs",
-              "ToolTip": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\WallTriggerZone.cs",
+              "ToolTip": "C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\WallTriggerZone.cs",
               "RelativeToolTip": "Assets\\Scripts\\WallTriggerZone.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -82,11 +83,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "WallMovementController.cs",
-              "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\WallMovementController.cs",
+              "DocumentMoniker": "C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\WallMovementController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\WallMovementController.cs",
-              "ToolTip": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\WallMovementController.cs",
+              "ToolTip": "C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\WallMovementController.cs",
               "RelativeToolTip": "Assets\\Scripts\\WallMovementController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -94,36 +95,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "WallMovement.cs",
-              "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\WallMovement.cs",
+              "DocumentMoniker": "C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\WallMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\WallMovement.cs",
-              "ToolTip": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\WallMovement.cs",
+              "ToolTip": "C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\WallMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\WallMovement.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T08:52:31.151Z"
+              "WhenOpened": "2026-03-05T08:52:31.151Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MovementScript.cs",
-              "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\MovementScript.cs",
+              "DocumentMoniker": "C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\MovementScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MovementScript.cs",
-              "ToolTip": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\MovementScript.cs",
+              "ToolTip": "C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\MovementScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\MovementScript.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAQwEUAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAkwH4AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-26T15:41:16.403Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "WallCollision.cs",
-              "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\WallCollision.cs",
+              "DocumentMoniker": "C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\WallCollision.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\WallCollision.cs",
-              "ToolTip": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\WallCollision.cs",
+              "ToolTip": "C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\WallCollision.cs",
               "RelativeToolTip": "Assets\\Scripts\\WallCollision.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -131,23 +133,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "SceneTransitionManager.cs",
-              "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\SceneTransitionManager.cs",
+              "DocumentMoniker": "C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\SceneTransitionManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SceneTransitionManager.cs",
-              "ToolTip": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\SceneTransitionManager.cs",
+              "ToolTip": "C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\SceneTransitionManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\SceneTransitionManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T12:22:25.331Z"
+              "WhenOpened": "2026-02-26T12:22:25.331Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "PlayerRespawn.cs",
-              "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\PlayerRespawn.cs",
+              "DocumentMoniker": "C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\PlayerRespawn.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerRespawn.cs",
-              "ToolTip": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\PlayerRespawn.cs",
+              "ToolTip": "C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\PlayerRespawn.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerRespawn.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -155,23 +158,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "LedgeGrabbing.cs",
-              "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\LedgeGrabbing.cs",
+              "DocumentMoniker": "C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\LedgeGrabbing.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\LedgeGrabbing.cs",
-              "ToolTip": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\LedgeGrabbing.cs",
+              "ToolTip": "C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\LedgeGrabbing.cs",
               "RelativeToolTip": "Assets\\Scripts\\LedgeGrabbing.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T11:45:30.027Z"
+              "WhenOpened": "2026-02-26T11:45:30.027Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "CutsceneManager.cs",
-              "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\CutsceneManager.cs",
+              "DocumentMoniker": "C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\CutsceneManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CutsceneManager.cs",
-              "ToolTip": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\CutsceneManager.cs",
+              "ToolTip": "C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\CutsceneManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\CutsceneManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -179,11 +183,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "SpikeDamage.cs",
-              "DocumentMoniker": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\SpikeDamage.cs",
+              "DocumentMoniker": "C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\SpikeDamage.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SpikeDamage.cs",
-              "ToolTip": "C:\\Users\\jonam\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\SpikeDamage.cs",
+              "ToolTip": "C:\\Users\\jona\\Kristiania\\Projects\\Games\\3d-platformer\\Assets\\Scripts\\SpikeDamage.cs",
               "RelativeToolTip": "Assets\\Scripts\\SpikeDamage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

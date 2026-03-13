@@ -124,7 +124,7 @@ public class MovementScript : MonoBehaviour
         Vector3 finalMove = move * playerSpeed + Vector3.up * yVelocity;
         controller.Move(finalMove * Time.deltaTime);
 
-        Debug.Log("Velocity:" + yVelocity);
+        //Debug.Log("Velocity:" + yVelocity);
     }
 
     IEnumerator EnableCanMove(float waitTime)
