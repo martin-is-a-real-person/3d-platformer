@@ -222,8 +222,8 @@ MonoBehaviour:
     y: 0
     width: 420
     height: 1453
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 226}
+  m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -1323,7 +1323,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.20152031, y: -0.0025016617, z: -0.0033823804, w: 0.9799151}
     speed: 2
-    m_Value: {x: 0.20143355, y: -0.0025005846, z: -0.0033809242, w: 0.9794932}
+    m_Value: {x: -0.20152032, y: 0.0025016617, z: 0.0033823804, w: -0.97991514}
   m_Size:
     m_Target: 7.7330093
     speed: 2
@@ -1566,8 +1566,7 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders:
-    - Assets/Unity Asset Store assets/SimpleToon
+    m_Folders: []
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1589,27 +1588,28 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 50786
+    - m_Data: 50756
+    - m_Data: 51024
+    - m_Data: 51026
+    - m_Data: 51028
+    - m_Data: 51030
+    - m_Data: 51032
+    - m_Data: 51034
+    - m_Data: 51036
+    - m_Data: 51038
+    - m_Data: 51040
+    - m_Data: 51042
+    - m_Data: 51044
+    - m_Data: 51046
+    - m_Data: 51048
+    - m_Data: 51050
+    - m_Data: 51052
     - m_Data: 51054
     - m_Data: 51056
     - m_Data: 51058
     - m_Data: 51060
     - m_Data: 51062
     - m_Data: 51064
-    - m_Data: 51066
-    - m_Data: 51068
-    - m_Data: 51070
-    - m_Data: 51072
-    - m_Data: 51074
-    - m_Data: 51076
-    - m_Data: 51078
-    - m_Data: 51080
-    - m_Data: 51082
-    - m_Data: 51084
-    - m_Data: 51086
-    - m_Data: 51088
-    - m_Data: 51090
-    - m_Data: 51092
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1636,34 +1636,36 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 0}
+    scrollPos: {x: 0, y: 59}
     m_SelectedIDs: []
     m_LastClickedID:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 50786
+    - m_Data: 50756
+    - m_Data: 51024
+    - m_Data: 51026
+    - m_Data: 51028
+    - m_Data: 51030
+    - m_Data: 51032
+    - m_Data: 51034
+    - m_Data: 51036
+    - m_Data: 51038
+    - m_Data: 51040
+    - m_Data: 51042
+    - m_Data: 51044
+    - m_Data: 51046
+    - m_Data: 51048
+    - m_Data: 51050
+    - m_Data: 51052
     - m_Data: 51054
     - m_Data: 51056
     - m_Data: 51058
     - m_Data: 51060
     - m_Data: 51062
     - m_Data: 51064
-    - m_Data: 51066
-    - m_Data: 51068
-    - m_Data: 51070
-    - m_Data: 51072
-    - m_Data: 51074
-    - m_Data: 51076
-    - m_Data: 51078
-    - m_Data: 51080
-    - m_Data: 51082
-    - m_Data: 51084
-    - m_Data: 51088
-    - m_Data: 51090
-    - m_Data: 51092
-    - m_Data: 51506
-    - m_Data: 51534
+    - m_Data: 51474
+    - m_Data: 51492
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
