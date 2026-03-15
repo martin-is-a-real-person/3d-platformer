@@ -144,7 +144,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SoundManager
   soundList:
   - {fileID: 8300000, guid: c6fc935ae986fe941becfef61f291f3e, type: 3}
-  - {fileID: 8300000, guid: a8fbfe1365a5d854c9a3ed5e6fd15b9e, type: 3}
+  - {fileID: 8300000, guid: 972b86bda4ffbc347bcc453e1ecbe2f6, type: 3}
   - {fileID: 8300000, guid: 2bfc26efbb25d7f41af7a75ed3f6caca, type: 3}
   - {fileID: 8300000, guid: 3f26ed06629860b48a1178c6616642f6, type: 3}
   - {fileID: 8300000, guid: b1b0562d141624240974f74612256587, type: 3}
