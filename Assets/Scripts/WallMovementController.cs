@@ -65,4 +65,31 @@ public class WallMovementController : MonoBehaviour
         if (mode == WallMovementMode.Paused)
             rb.linearVelocity = Vector3.zero;
     }
+
+
+    //To save the mode, speed, and position of the wall for checkpoints
+    public Vector3 GetWallPosition()
+    {
+        return transform.position;
+    }
+
+    public float GetCurrentSpeed()
+    {
+        return currentSpeed;
+    }
+
+    public WallMovementMode GetCurrentMode()
+    {
+        return currentmode;
+    }
+
+    public void RestoreState(Vector3 pos, float speed, WallMovementMode mode)
+    {
+        transform.position = pos;
+        currentSpeed = speed;
+        currentmode = mode;
+        rb.linearVelocity = moveDirection.normalized * currentSpeed;
+    }
+
+
 }
