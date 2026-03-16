@@ -3672,6 +3672,10 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 6253156043129400849, guid: 3217611a54fff6046b5269195f969693, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6253156043129400849, guid: 3217611a54fff6046b5269195f969693, type: 3}
       propertyPath: jumpAction
       value: 
       objectReference: {fileID: 252848986}
@@ -30483,7 +30487,7 @@ GameObject:
   - component: {fileID: 1424513387}
   - component: {fileID: 1424513386}
   - component: {fileID: 1424513385}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35822,7 +35826,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1675029325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35922,7 +35926,7 @@ Transform:
   m_GameObject: {fileID: 1675029324}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 48, z: 12}
+  m_LocalPosition: {x: 0, y: 48, z: 138}
   m_LocalScale: {x: 30, y: 9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -38749,7 +38753,7 @@ GameObject:
   - component: {fileID: 1822894349}
   - component: {fileID: 1822894348}
   - component: {fileID: 1822894347}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: Cube (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43530,7 +43534,7 @@ GameObject:
   - component: {fileID: 2099717289}
   - component: {fileID: 2099717288}
   - component: {fileID: 2099717287}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: Cube (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44918,6 +44922,10 @@ PrefabInstance:
     - target: {fileID: 4308757397642050796, guid: 7f584e8ef19cba14ca80720c8c703d05, type: 3}
       propertyPath: m_Name
       value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 4308757397642050796, guid: 7f584e8ef19cba14ca80720c8c703d05, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4868100015608291967, guid: 7f584e8ef19cba14ca80720c8c703d05, type: 3}
       propertyPath: m_LocalScale.x

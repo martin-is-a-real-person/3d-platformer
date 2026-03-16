@@ -20,6 +20,7 @@ public class WallCollision : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            //Show the death menu
             DeathMenu.Instance.ShowDeathMenu();
         }
     }

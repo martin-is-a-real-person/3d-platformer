@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class CheckpointManager : MonoBehaviour
 {
+    //So other scripts can refer to this one
     public static CheckpointManager Instance;
 
     //The player variable
@@ -10,13 +11,13 @@ public class CheckpointManager : MonoBehaviour
     //The wall variable
     public WallMovementController wall;
 
-
     //The saved info variables
     private Vector3 savedPlayerPos;
     private Vector3 savedWallPos;
     private float savedWallSpeed;
     private WallMovementMode savedWallMode;
 
+    //If there is no checkpoint manager in the scene, use this one
     void Awake()
     {
         if (Instance == null)
@@ -49,26 +50,42 @@ public class CheckpointManager : MonoBehaviour
     //What should happen on respawn
     public void Respawn()
     {
+        //Disable the ledge grab, else the two scripts fight on who should move the player (the ledge grab always wins)
+        LedgeGrabbing.disableLedgeGrab = true;
+        Debug.Log("Ledge grab disabled");
+        
+        //Stop currently in progress ledge grabs
+        player.GetComponent<LedgeGrabbing>().StopAllCoroutines();
+
+        //Get the character controller on the player
         CharacterController cc = player.GetComponent<CharacterController>();
 
-        if (cc != null)
-        {
-            cc.enabled = false;
-            Vector3 safePos = savedPlayerPos + Vector3.up * 1.5f;
-            player.position = safePos;
+        //Disable the character controller, move the player, and enable the cc again (to stop physic conflicts from happening)
+        cc.enabled = false;
+        player.position = savedPlayerPos;
+        cc.enabled = true;
 
+        //Put the wall in the same state as when the checkpoint was saved
+        wall.RestoreState(savedWallPos, savedWallSpeed, savedWallMode);
 
-            cc.enabled = true;
-        }
+        //The spikes cannot damage the player while respawning
+        SpikeDamage.canKill = false;
 
-        else
-        {
-            player.position = savedPlayerPos;
-        }
+        //Enable spike damage and ledge grab after spesified time
+        Invoke(nameof(EnableSpikeDamage), 1f);
 
-            wall.RestoreState(savedWallPos, savedWallSpeed, savedWallMode);
+        Invoke(nameof(ReEnableLedgeGrab), 1f);
 
-        Debug.Log("Respawning player at: " + savedPlayerPos);
     }
 
+    void EnableSpikeDamage()
+    {
+        SpikeDamage.canKill = true;
+    }
+
+    void ReEnableLedgeGrab()
+    {
+        LedgeGrabbing.disableLedgeGrab = false;
+        Debug.Log("Ledge grab enabled");
+    }
 }
