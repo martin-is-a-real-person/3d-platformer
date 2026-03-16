@@ -43121,7 +43121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad2b20b05c3b6d54bbfd5257a648848c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneTransitionManager
-  sceneToLoad: DemoWinScreen
+  sceneToLoad: MainMenu
 --- !u!1001 &2072837248
 PrefabInstance:
   m_ObjectHideFlags: 0
