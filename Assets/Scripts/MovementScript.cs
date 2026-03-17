@@ -93,7 +93,7 @@ public class MovementScript : MonoBehaviour
 
         }
 
-        else if (jumpAction.action.WasPressedThisFrame() && (jumpCount < maxJumps || coyoteTimeCounter > 0f) && groundedPlayer)
+        else if (jumpAction.action.WasPressedThisFrame() && (jumpCount < maxJumps || coyoteTimeCounter > 0f))
         {
             yVelocity = jumpForce;
             jumpCount++;
