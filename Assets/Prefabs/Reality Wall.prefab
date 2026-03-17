@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3486466060569519655}
   - component: {fileID: 5869077073912530312}
-  - component: {fileID: 7412932084320830993}
   - component: {fileID: 5081598004055434603}
   m_Layer: 6
   m_Name: Reality Wall
@@ -48,21 +47,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WallCollision
   currentSceneName: 
---- !u!114 &7412932084320830993
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4139831613682215962}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cfb76383d9c66a2478fc467745a55e3e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::WallMovement
-  wallSpeed: 20
-  movement: {x: 0, y: 0, z: 1}
-  controller: {fileID: 0}
 --- !u!54 &5081598004055434603
 Rigidbody:
   m_ObjectHideFlags: 0
