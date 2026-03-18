@@ -98,7 +98,7 @@ public class MovementScript : MonoBehaviour
             yVelocity = jumpForce;
             jumpCount++;
             coyoteTimeCounter =0f;
-            SoundManager.PlaySound(SoundType.SHORTJUMP, 1);
+            SoundManager.PlaySound(SoundType.SHORTJUMP, 0.5f);
         }
 
         if (yVelocity < 0)

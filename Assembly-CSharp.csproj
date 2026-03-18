@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\SoundManager.cs" />
     <Compile Include="Assets\Scripts\WallMovementController.cs" />
     <Compile Include="Assets\Scripts\PlayerRespawn.cs" />
+    <Compile Include="Assets\Scripts\TextDisplayer.cs" />
     <Compile Include="Assets\Scripts\WallTriggerZone.cs" />
     <Compile Include="Assets\Scripts\WallMovement.cs" />
   </ItemGroup>
