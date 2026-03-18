@@ -23296,6 +23296,82 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f95b221461878e44f90da6c29fb53f92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CheckpointTrigger
+--- !u!1001 &1026055850
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 48946572830174695, guid: 6560fab3660f0da4fb2f567d9d2957fb, type: 3}
+      propertyPath: m_Name
+      value: LedgeGrabAnim Everything
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588255463036700735, guid: 6560fab3660f0da4fb2f567d9d2957fb, type: 3}
+      propertyPath: m_Name
+      value: 'Code '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7772181873210040451, guid: 6560fab3660f0da4fb2f567d9d2957fb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -101.83691
+      objectReference: {fileID: 0}
+    - target: {fileID: 7772181873210040451, guid: 6560fab3660f0da4fb2f567d9d2957fb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7772181873210040451, guid: 6560fab3660f0da4fb2f567d9d2957fb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 410.9106
+      objectReference: {fileID: 0}
+    - target: {fileID: 7772181873210040451, guid: 6560fab3660f0da4fb2f567d9d2957fb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7772181873210040451, guid: 6560fab3660f0da4fb2f567d9d2957fb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7772181873210040451, guid: 6560fab3660f0da4fb2f567d9d2957fb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7772181873210040451, guid: 6560fab3660f0da4fb2f567d9d2957fb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7772181873210040451, guid: 6560fab3660f0da4fb2f567d9d2957fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7772181873210040451, guid: 6560fab3660f0da4fb2f567d9d2957fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7772181873210040451, guid: 6560fab3660f0da4fb2f567d9d2957fb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9166276596606016492, guid: 6560fab3660f0da4fb2f567d9d2957fb, type: 3}
+      propertyPath: m_Name
+      value: Visual
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6560fab3660f0da4fb2f567d9d2957fb, type: 3}
+--- !u!114 &1026055851 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3435155724046231277, guid: 6560fab3660f0da4fb2f567d9d2957fb, type: 3}
+  m_PrefabInstance: {fileID: 1026055850}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b01e6710320fe1c49bda9b7387ad795d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LedgeGrabAnimManager
 --- !u!1001 &1026504329
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28202,6 +28278,10 @@ PrefabInstance:
       propertyPath: jumpAction
       value: 
       objectReference: {fileID: 1613386349}
+    - target: {fileID: 6253156043129400849, guid: 3217611a54fff6046b5269195f969693, type: 3}
+      propertyPath: lgAnimManager
+      value: 
+      objectReference: {fileID: 1026055851}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -47295,3 +47375,4 @@ SceneRoots:
   - {fileID: 348639944}
   - {fileID: 792690070}
   - {fileID: 869361607}
+  - {fileID: 1026055850}

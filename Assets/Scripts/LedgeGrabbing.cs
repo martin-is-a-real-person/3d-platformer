@@ -7,6 +7,7 @@ using UnityEngine.InputSystem;
 
 public class LedgeGrabbing : MonoBehaviour
 {
+    public LedgeGrabAnimManager lgAnimManager;
 
     public Transform playerEyes;
     private float playerHeight = 2f;
@@ -66,7 +67,9 @@ public class LedgeGrabbing : MonoBehaviour
     IEnumerator LerpGrab(Vector3 targetPosition, float duration)
     {
         isGrabbing = true;
-        
+
+        lgAnimManager.PlayLedgeGrabAnimation();
+
         float time = 0;
         Vector3 startPosition = transform.position;
         playerCollider.enabled = false;
