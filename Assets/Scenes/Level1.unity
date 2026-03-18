@@ -7714,6 +7714,79 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5054573774571965353, guid: 8f10bfa4297c381438bf63ec140427ec, type: 3}
   m_PrefabInstance: {fileID: 313145520}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &315991713
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 869361607}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 32547d215d9273f45b2cfb4d32e2a928, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4867965
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 32547d215d9273f45b2cfb4d32e2a928, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.4867965
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 32547d215d9273f45b2cfb4d32e2a928, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5016937
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 32547d215d9273f45b2cfb4d32e2a928, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 46.810226
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 32547d215d9273f45b2cfb4d32e2a928, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 149.40677
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 32547d215d9273f45b2cfb4d32e2a928, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 32547d215d9273f45b2cfb4d32e2a928, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 32547d215d9273f45b2cfb4d32e2a928, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 32547d215d9273f45b2cfb4d32e2a928, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 32547d215d9273f45b2cfb4d32e2a928, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 32547d215d9273f45b2cfb4d32e2a928, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 32547d215d9273f45b2cfb4d32e2a928, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 32547d215d9273f45b2cfb4d32e2a928, type: 3}
+      propertyPath: m_Name
+      value: bunny
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 32547d215d9273f45b2cfb4d32e2a928, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 744542794}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 32547d215d9273f45b2cfb4d32e2a928, type: 3}
+--- !u!4 &315991714 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 32547d215d9273f45b2cfb4d32e2a928, type: 3}
+  m_PrefabInstance: {fileID: 315991713}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &316886143
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16404,6 +16477,75 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5054573774571965353, guid: 8f10bfa4297c381438bf63ec140427ec, type: 3}
   m_PrefabInstance: {fileID: 743562436}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &744542793
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 744542794}
+  - component: {fileID: 744542796}
+  - component: {fileID: 744542795}
+  m_Layer: 9
+  m_Name: catCollider (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &744542794
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744542793}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 100.48907, y: -31.48395, z: 0.33744296}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 315991714}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &744542795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744542793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcbea71b5bb902f4dbb8f232b734dcb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TextDisplayer
+  textValue: Wolf? You look stressed, I should go.
+  textElement: {fileID: 1820871861}
+  textDelay: 0.1
+--- !u!65 &744542796
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744542793}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 8
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.6139266, y: 4.409705, z: 5.5477347}
+  m_Center: {x: -1.4050379e-15, y: 0.25562963, z: 0.3193749}
 --- !u!1001 &745851901
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19405,6 +19547,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 407351446}
+  - {fileID: 315991714}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &870343106
@@ -37500,7 +37643,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcbea71b5bb902f4dbb8f232b734dcb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TextDisplayer
-  textValue: example text
+  textValue: "Hey Wolf! Didn\u2019t know you\u2019d be here. I\u2019ll move out of
+    your way."
   textElement: {fileID: 1820871861}
   textDelay: 0.1
 --- !u!65 &1725574103
