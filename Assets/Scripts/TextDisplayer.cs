@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class TextDisplayer : MonoBehaviour
 {
-    public string textValue;
+    [SerializeField] private string textValue;
     public TextMeshProUGUI textElement;
 
     public float textDelay;
