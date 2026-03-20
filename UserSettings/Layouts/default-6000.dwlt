@@ -626,23 +626,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1208
-      height: 658
-    m_Scale: {x: 0.7615741, y: 0.7615741}
-    m_Translation: {x: 604, y: 329}
+      width: 724.6
+      height: 301
+    m_Scale: {x: 0.34837964, y: 0.34837964}
+    m_Translation: {x: 362.3, y: 150.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -793.09424
+      x: -1039.9574
       y: -432
-      width: 1586.1885
+      width: 2079.9148
       height: 864
     m_MinimalGUI: 1
-  m_defaultScale: 0.7615741
-  m_LastWindowPixelSize: {x: 1208, y: 679}
+  m_defaultScale: 0.34837964
+  m_LastWindowPixelSize: {x: 724.6, y: 322}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -1272,9 +1272,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 91.399414, y: 39.13808, z: -98.75724}
+    m_Target: {x: 219.77031, y: 40.59945, z: 54.484398}
     speed: 2
-    m_Value: {x: 177.60585, y: 348.99765, z: 167.32265}
+    m_Value: {x: 91.399414, y: 39.13808, z: -98.75724}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1320,13 +1320,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.06776314, y: 0.7512044, z: -0.078484826, w: 0.65279883}
+    m_Target: {x: -0.029429456, y: 0.84189725, z: -0.047437027, w: -0.5379088}
     speed: 2
-    m_Value: {x: -0.39408794, y: 0.6076886, z: -0.44993702, w: -0.52331895}
+    m_Value: {x: 0.06776314, y: 0.7512044, z: -0.078484826, w: 0.6527988}
   m_Size:
     m_Target: 20.859663
     speed: 2
-    m_Value: 48.215305
+    m_Value: 20.859663
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1560,20 +1560,20 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 49452
-    - m_Data: 49454
-    - m_Data: 49456
-    - m_Data: 49458
-    - m_Data: 49460
-    - m_Data: 49462
-    - m_Data: 49464
-    - m_Data: 49466
-    - m_Data: 49468
-    - m_Data: 49470
-    - m_Data: 49472
-    - m_Data: 49474
-    - m_Data: 49476
-    - m_Data: 49478
+    - m_Data: 47078
+    - m_Data: 51736
+    - m_Data: 51738
+    - m_Data: 51740
+    - m_Data: 51742
+    - m_Data: 51744
+    - m_Data: 51746
+    - m_Data: 51748
+    - m_Data: 51750
+    - m_Data: 51752
+    - m_Data: 51754
+    - m_Data: 51756
+    - m_Data: 51758
+    - m_Data: 51760
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1606,20 +1606,20 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 49452
-    - m_Data: 49454
-    - m_Data: 49456
-    - m_Data: 49458
-    - m_Data: 49460
-    - m_Data: 49462
-    - m_Data: 49464
-    - m_Data: 49466
-    - m_Data: 49468
-    - m_Data: 49470
-    - m_Data: 49472
-    - m_Data: 49474
-    - m_Data: 49476
-    - m_Data: 49478
+    - m_Data: 47078
+    - m_Data: 51736
+    - m_Data: 51738
+    - m_Data: 51740
+    - m_Data: 51742
+    - m_Data: 51744
+    - m_Data: 51746
+    - m_Data: 51748
+    - m_Data: 51750
+    - m_Data: 51752
+    - m_Data: 51754
+    - m_Data: 51756
+    - m_Data: 51758
+    - m_Data: 51760
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

@@ -12,17 +12,6 @@ public class ButtonScript : MonoBehaviour
         Cursor.visible = true;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public void RestartButton()
-    {
-        SceneManager.LoadScene(currentLevel + 1);
-    }
-
     public void QuitButton()
     {
         Application.Quit();

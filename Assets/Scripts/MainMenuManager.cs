@@ -9,7 +9,7 @@ public class MainMenuManager : MonoBehaviour
 
     [SerializeField] private string nameOfScene1;
     [SerializeField] private string nameOfScene2;
-    //[SerializeField] private string nameOfScene3;
+    [SerializeField] private string nameOfScene3;
 
     void Awake()
     {
@@ -17,6 +17,12 @@ public class MainMenuManager : MonoBehaviour
             Instance = this;
         else
             Destroy(gameObject);
+    }
+
+    void Start()
+    {
+        Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = true;
     }
 
     public void Level1Start()
@@ -29,8 +35,13 @@ public class MainMenuManager : MonoBehaviour
         SceneManager.LoadScene(nameOfScene2);
     }
 
-    //public void Level3Start()
-    //{
-        //SceneManager.LoadScene(nameOfScene3);
-    //}
+    public void Level3Start()
+    {
+        SceneManager.LoadScene(nameOfScene3);
+    }
+
+    public void QuitButton()
+    {
+        Application.Quit();
+    }
 }

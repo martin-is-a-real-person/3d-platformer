@@ -1,11 +1,14 @@
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.InputSystem.Controls;
+using UnityEngine.SceneManagement;
 using UnityEngine.Video;
 
 public class CutsceneManager : MonoBehaviour
 {
     private VideoPlayer cutscenePlayer;
     public bool autoplay;
+    public bool ending = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -60,5 +63,10 @@ public class CutsceneManager : MonoBehaviour
         cutscenePlayer.targetCamera = null;
 
         gameObject.SetActive(false);
+
+        if (ending)
+        {
+            SceneManager.LoadScene("MainMenu");
+        }
     }
 }
