@@ -30,20 +30,26 @@ public class PauseMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.Tab) && pauseMenuActive == false)
+        if (Input.GetKeyDown(KeyCode.Tab) && pauseMenuActive == false)
         {
             pauseUI.SetActive(true);
             Time.timeScale = 0f;
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
+
+            pauseMenuActive = true;
         }
 
-        else if (Input.GetKey(KeyCode.Tab) && pauseMenuActive == true)
+        else if (Input.GetKeyDown(KeyCode.Tab) && pauseMenuActive == true)
         {
             pauseUI.SetActive(false);
             Time.timeScale = 1.0f;
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
+
+            pauseMenuActive = false;
+
+            Debug.Log("Pause menu removed");
         }
     }
 
