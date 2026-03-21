@@ -12,6 +12,8 @@ public class TextDisplayer : MonoBehaviour
     public float textDelay;
     private string currentText = "";
 
+    private bool display;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -29,6 +31,7 @@ public class TextDisplayer : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             textElement.enabled = true;
+            display = true;
             StartCoroutine(ShowText());
         }
     }
@@ -38,6 +41,8 @@ public class TextDisplayer : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             textElement.enabled = false;
+            currentText = "";
+            display = false;
         }
     }
 
@@ -45,9 +50,17 @@ public class TextDisplayer : MonoBehaviour
     {
         for(int i = 0; i <= textValue.Length; i++)
         {
-            currentText = textValue.Substring(0,i);
-            textElement.text = currentText;
-            yield return new WaitForSeconds(textDelay);
+            if (display)
+            {
+                currentText = textValue.Substring(0,i);
+                textElement.text = currentText;
+                yield return new WaitForSeconds(textDelay);
+            }
+            
+            else
+            {
+                break;
+            }
         }
     }
 }
